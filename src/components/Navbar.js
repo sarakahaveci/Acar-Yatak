@@ -5,23 +5,25 @@ import './Navbar.css'
 export function NavbarComponent() {
   return (
     <div> 
-        
         <Navbar bg="dark" variant="dark">
       <Navbar.Brand href="#home">
         <img
             src="http://www.acaryatak.com/content/assets/default/img/logo.png"
-            width="18%"
-            height="10%"
-            className="d-inline-block align-top "
+            width="15%"
+            height="20%"
+            display="flex"
+            className="d-inline-block align-top"  
             alt="React Bootstrap logo" />
-   
-      
-        <Navbar.Brand href="#home">Acar Yatak</Navbar.Brand>
-       
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#features">Features</Nav.Link>
-          <Nav.Link href="#pricing">Pricing</Nav.Link>
-      
+              <Navbar inverse className="fixed-top nav-bar px-2">
+              <Navbar.Brand href="#home">Acar Yatak</Navbar.Brand> 
+
+              <Nav.Link href="#home">Home</Nav.Link>
+
+          <Nav.Link href="#features">Corporate</Nav.Link>
+  
+          <Nav.Link href="#pricing">Products</Nav.Link>
+          <Nav.Link href="#pricing">Contact Us</Nav.Link>
+          </Navbar>
       <Navbar bg="light">
         <Navbar.Brand href="#home"></Navbar.Brand>
       </Navbar>

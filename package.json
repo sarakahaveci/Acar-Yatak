@@ -10,8 +10,10 @@
     "react": "^17.0.1",
     "react-bootstrap": "^1.5.0",
     "react-dom": "^17.0.1",
+    "react-routing": "^0.0.7",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.0"
+    "web-vitals": "^1.1.0",
+    "yarn": "^1.22.10"
   },
   "scripts": {
     "start": "react-scripts start",
