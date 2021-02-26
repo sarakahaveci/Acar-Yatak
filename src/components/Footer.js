@@ -8,34 +8,34 @@ function Footer() {
         <div className='footer-container'>
             <div class='footer-links'>
                 <div className='footer-link-wrapper'>
-                    <div class='footer-link-items'>
-                        <h2>Our Address</h2>
-                        <Link to='/'>Bayrampaşa</Link>
-                        <Link to='/'>Careers</Link>
-                        <Link to='/'>Terms of Service</Link>
-                    </div>
-                    <div class='footer-link-items'>
-                        <h2>Contact Us</h2>
-                        <Link to='/'>Contact</Link>
-                        <Link to='/'>Support</Link>
-                        <Link to='/'>Sponsorships</Link>
-                    </div>
-                </div>
                 <div className='footer-link-wrapper'>
-                    <div class='footer-link-items'>
-                        <h2>Our Products</h2>
-                        <Link to='/'>Beds</Link>
-                        <Link to='/'>Beds Basments</Link>
-                        <Link to='/'>Beds Bunks</Link>
+                <div class='footer-link-items'>
+                    <h2> Products</h2>
+                    <Link to='/'>Beds</Link>
+                    <Link to='/'>Beds Basments</Link>
+                    <Link to='/'>Beds Bunks</Link>
+                </div>
+            </div>  
+                <div class='footer-link-items'>
+                        <h2> Address</h2>
+                        <Link to='/'>Vatan Mah. Esenler Cad. No:39 Azim İş Hani No:10 Bayrampaşa/İstanbul 34035</Link>
+                       
                     </div>
                     <div class='footer-link-items'>
-                        <h2>Social Media</h2>
-                        <Link to='/'>Instagram</Link>
-                        <Link to='/'>Facebook</Link>
-                        <Link to='/'>Youtube</Link>
-
+                    <h2>Contact Us</h2>
+                    <Link to='/'> +90 (537) 432 80 02</Link>
+                        <Link to='/'> +90 (212) 579 80 02</Link>
+                        <Link to='/'> +90 (212) 674 04 73</Link>
+                        <Link to='/'>info@yurosunger.com</Link>
                     </div>
                 </div>
+                <div class='footer-link-items'>
+                <h2>Social Media</h2>
+                <Link to='/https://www.instagram.com/acaryatak/'>Instagram</Link>
+                <Link to='/https://www.facebook.com/Acaryatak'>Facebook</Link>
+                <Link to='/https://www.youtube.com/channel/UCPT7nYipeN62q5lOHhd3MuA'>Youtube</Link>
+
+            </div>
             </div>
             <section class='social-media'>
                 <div class='social-media-wrap'>
@@ -47,46 +47,6 @@ function Footer() {
                     </div>
                     <small class='website-rights'>Yaman © 2021</small>
                     <div class='social-icons'>
-                        <Link
-                            class='social-icon-link facebook'
-                            to='/'
-                            target='_blank'
-                            aria-label='Facebook'
-                        >
-                            <i class='fab fa-facebook-f' />
-                        </Link>
-                        <Link
-                            class='social-icon-link instagram'
-                            to='/'
-                            target='_blank'
-                            aria-label='Instagram'
-                        >
-                            <i class='fab fa-instagram' />
-                        </Link>
-                        <Link
-                            class='social-icon-link youtube'
-                            to='/'
-                            target='_blank'
-                            aria-label='Youtube'
-                        >
-                            <i class='fab fa-youtube' />
-                        </Link>
-                        <Link
-                            class='social-icon-link twitter'
-                            to='/'
-                            target='_blank'
-                            aria-label='Twitter'
-                        >
-                            <i class='fab fa-twitter' />
-                        </Link>
-                        <Link
-                            class='social-icon-link twitter'
-                            to='/'
-                            target='_blank'
-                            aria-label='LinkedIn'
-                        >
-                            <i class='fab fa-linkedin' />
-                        </Link>
                     </div>
                 </div>
             </section>
