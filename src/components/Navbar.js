@@ -1,4 +1,5 @@
 import { Navbar, Nav,form } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import './Navbar.css'
 
@@ -13,11 +14,10 @@ export function NavbarComponent() {
             width="20%"
             height="10%"  
             alt="Acar Yatak logo" />
-          
+            <Navbar class="p-3 bg-light text-dark">
+            <form class="form-inline mx-auto">
         
-                <Navbar class="p-3 bg-light text-dark">
-                <form class="form-inline mx-auto">
-      <input class="form-control mx-auto" type="search" placeholder="Search" aria-label="Search"/>
+<input class="form-control mx-auto" type="search" placeholder="Search" aria-label="Search"/>
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
       <Nav className="navbar-nav ml-auto">

@@ -1,18 +1,14 @@
-/* eslint-disable react/style-prop-object */
-/* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react'
-import { Carousel} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
  function Cards() {
     return (
-        <>
-        
+<>        
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="https://i.imgur.com/4kZFFp9.png" class="d w-100px" alt="..."/>
+            <img src="https://i.imgur.com/UDBoRJn.png" class="d w-100px" alt="..."/>
           </div>
           <div class="carousel-item">
             <img src="https://i.imgur.com/UDBoRJn.png" class="d w-100" alt="..."/>
@@ -30,82 +26,34 @@ import 'bootstrap/dist/css/bootstrap.min.css';
           <span class="sr-only">Next</span>
         </a>
       </div>
-   <div class="card-deck">
+
+      <div class="card-deck">
   <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap"/>
+    <img class="card-img-top" src="https://i.imgur.com/AMG4gMl.png" alt="Card image cap"/>
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <h5 class="card-title">Lale</h5>
+      <p class="card-text">Price is:</p>
 
     </div>
   </div>
   <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap"/>
+    <img class="card-img-top" src="https://i.imgur.com/IqK8FMe.png" alt="Card image cap"/>
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <h5 class="card-title">Comfort</h5>
+      <p class="card-text">Price is: </p>
      
     </div>
   </div>
   <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap"/>
+    <img class="card-img-top" src="https://i.imgur.com/Twt3aXt.png" alt="Card image cap"/>
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <h5 class="card-title">Acar </h5>
+      <p class="card-text">Price is: </p>
     </div>
   </div>
 </div>
-<div class="card-deck">
-  <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap"/>
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+</>    
+)
 
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap"/>
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-     
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap"/>
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-    </div>
-  </div>
-</div>
-<div class="card-deck">
-  <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap"/>
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap"/>
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-     
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap"/>
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-    </div>
-  </div>
-</div>
-        </>
-    )
 }
 export default Cards;
