@@ -1,12 +1,12 @@
-body {
-    padding-top: 1px; /* Whatever the height of your navbar is; the
-                             default is 50px */
+.logo{
+    display: flex;
 }
-.d-inline-block {
-    padding-top: 5px;
-    display:flex;
-}
-/* .NavLink{
-    margin-left : 1em;
-    margin-right : 1em;
-} */
+.navbar-form input[type=text] {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+  
+  .form-inline {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+  }
