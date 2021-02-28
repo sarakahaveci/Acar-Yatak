@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Sun Feb 28 2021 20:38:18 GMT+0300 (Arabian Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/components/Navbar.js
+
+
+Created files:
+* .autogit/logs/log-28-1-2021-20-8-9.txt
+
+
+Deleted files:
+
+
+Renamed files:
