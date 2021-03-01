@@ -4,17 +4,17 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
  function Cards() {
     return (
-<>        
+      <> 
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="https://i.imgur.com/UDBoRJn.png" class="d w-100px" alt="..."/>
+            <img src="https://i.imgur.com/UDBoRJn.png" class="d w-100px" alt="first image"/>
           </div>
           <div class="carousel-item">
-            <img src="https://i.imgur.com/UDBoRJn.png" class="d w-100" alt="..."/>
+            <img src="https://i.imgur.com/UDBoRJn.png" class="d w-100" alt="second image"/>
           </div>
           <div class="carousel-item">
-            <img src="https://i.imgur.com/9Xod440.png" class="d w-100" alt="..."/>
+            <img src="https://i.imgur.com/9Xod440.png" class="d w-100" alt="third image"/>
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
