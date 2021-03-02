@@ -6,9 +6,7 @@ import NavbarComp from './components/Navbar';
 function App() {
   return (
     <div className="App">
-    
      <NavbarComp/>
-     <header>Welcome to Acar Yatak website</header>
      <Cards/>
      <Footer/>
      

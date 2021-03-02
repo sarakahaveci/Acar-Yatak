@@ -1,5 +1,7 @@
 import { Navbar, Nav, Form, Button } from "react-bootstrap";
 import Languages from './Languages';
+import translation from '../translation';
+
 function NavBarComponent() {
   return (
 <>
@@ -15,8 +17,9 @@ function NavBarComponent() {
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-      <Languages/>
+     
         <Nav className="ml-auto">
+        <Languages/>
           <Form inline>
             <Form.Control
               type="text"
@@ -25,8 +28,10 @@ function NavBarComponent() {
             />
             <Button variant="outline-dark">Search</Button>
           </Form>
-          <Nav.Link href="#home">Home</Nav.Link>
+         
+          <Nav.Link href="#home">{('Home')}</Nav.Link>
           <Nav.Link href="#products">Products</Nav.Link>
+          <Nav.Link href="#salesoutlet">Sales Outlet</Nav.Link>
           <Nav.Link href="#aboutus">About Us</Nav.Link>
           <Nav.Link href="#contactus">Contact Us</Nav.Link>
         </Nav>
