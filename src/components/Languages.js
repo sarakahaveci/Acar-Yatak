@@ -8,6 +8,7 @@ import "./Languages.css";
    const changeLanguage = lng => {
     i18n.changeLanguage(lng);
   }
+  
   return (
     <>
     <Col className="languageDropdown">

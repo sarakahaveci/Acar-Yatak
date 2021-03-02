@@ -28,8 +28,8 @@ function NavBarComponent() {
             />
             <Button variant="outline-dark">Search</Button>
           </Form>
-         
-          <Nav.Link href="#home">{('Home')}</Nav.Link>
+          <Nav.Link href="#home">Home</Nav.Link>
+          <Nav.Link href="#home">Home</Nav.Link>
           <Nav.Link href="#products">Products</Nav.Link>
           <Nav.Link href="#salesoutlet">Sales Outlet</Nav.Link>
           <Nav.Link href="#aboutus">About Us</Nav.Link>
