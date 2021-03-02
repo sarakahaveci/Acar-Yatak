@@ -17,7 +17,7 @@
 
     margin-bottom: 24px;
     padding: 24px;
-    color: rgb(81, 129, 35);
+    color:   #a3850e;
 }
 
 .footer-subscription > p {
@@ -43,7 +43,7 @@
     border: none;
     font-size: 18px;
     margin-bottom: 16px;
-    border: 1px solid rgb(81, 129, 35);
+    border: 1px solid  #a3850e;
 }
 
 .footer-links {
@@ -72,11 +72,11 @@
 }
 
 .footer-link-items > h2 {
-    color: rgb(81, 129, 35);
+    color:  #a3850e;
 }
 
 .footer-link-items a {
-    color: rgb(81, 129, 35);
+    color:  #a3850e;
     text-decoration: none;
     margin-bottom: 0.5rem;
 }
@@ -96,7 +96,7 @@
 
 /* Social Icons */
 .social-icon-link {
-    color: rgb(81, 129, 35);
+    color:  #a3850e;
     font-size: 24px;
 }
 
@@ -122,7 +122,7 @@
 }
 
 .social-logo {
-    color: rgb(81, 129, 35);
+    color: #a3850e;
     justify-self: center;
     margin-left: 150px;
     cursor: pointer;
@@ -134,7 +134,7 @@
 }
 
 .website-rights {
-    color: rgb(81, 129, 35);
+    color:  #a3850e;
     margin-bottom: 16px;
 }
 

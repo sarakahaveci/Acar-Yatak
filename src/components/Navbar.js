@@ -1,7 +1,8 @@
 import { Navbar, Nav, Form, Button } from "react-bootstrap";
-
+import Languages from './Languages';
 function NavBarComponent() {
   return (
+<>
     <Navbar class="p-3 mb-2 bg-light text-white" bg="light" expand="lg">
       <Navbar.Brand href="#home">
         <img
@@ -13,8 +14,8 @@ function NavBarComponent() {
         />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
-
       <Navbar.Collapse id="basic-navbar-nav">
+      <Languages/>
         <Nav className="ml-auto">
           <Form inline>
             <Form.Control
@@ -22,7 +23,7 @@ function NavBarComponent() {
               placeholder="Search"
               className="mr-sm-2"
             />
-            <Button variant="outline-success">Search</Button>
+            <Button variant="outline-dark">Search</Button>
           </Form>
           <Nav.Link href="#home">Home</Nav.Link>
           <Nav.Link href="#products">Products</Nav.Link>
@@ -31,6 +32,8 @@ function NavBarComponent() {
         </Nav>
       </Navbar.Collapse>
     </Navbar>
+   
+    </>
   );
 }
 

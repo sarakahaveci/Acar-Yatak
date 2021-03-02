@@ -1,0 +1,10 @@
+
+.languageDropdown{
+    position:sticky;
+    top: 0px;
+    left: 350px;
+    display:flex;
+}
+    @include media(tablet-sm) {
+      left: 45px;
+    }   
