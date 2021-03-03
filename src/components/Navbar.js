@@ -1,6 +1,8 @@
 import { Navbar, Nav, Form, Button } from "react-bootstrap";
 import Languages from './Languages';
 import translation from '../translation';
+import React, { Fragment } from "react";
+import { Switch, Route,Router } from "react-router-dom";
 
 function NavBarComponent() {
   return (
@@ -28,12 +30,17 @@ function NavBarComponent() {
             />
             <Button variant="outline-dark">Search</Button>
           </Form>
+          <Router> 
+          <Switch>
           <Nav.Link href="#home">Home</Nav.Link>
           <Nav.Link href="#home">Home</Nav.Link>
           <Nav.Link href="#products">Products</Nav.Link>
           <Nav.Link href="#salesoutlet">Sales Outlet</Nav.Link>
           <Nav.Link href="#aboutus">About Us</Nav.Link>
           <Nav.Link href="#contactus">Contact Us</Nav.Link>
+          </Switch>
+          </Router>
+
         </Nav>
       </Navbar.Collapse>
     </Navbar>
