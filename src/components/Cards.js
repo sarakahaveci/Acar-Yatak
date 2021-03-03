@@ -11,7 +11,7 @@ import React from 'react'
      <Carousel className="carousel" >
   <Carousel.Item interval={1000}>
     <img
-      className="d w-90 border "
+      className="d-block mx-auto"
       src="https://i.imgur.com/4kZFFp9.png"
       alt="First slide"
     />
@@ -22,7 +22,7 @@ import React from 'react'
   </Carousel.Item>
   <Carousel.Item interval={700}>
     <img
-      className="d w-90"
+      className="d-block mx-auto"
       src="https://i.imgur.com/BuNGcJI.png"
       alt="Second slide"
     />
@@ -34,7 +34,7 @@ import React from 'react'
   </Carousel.Item>
   <Carousel.Item >
     <img
-      className="d w-90"
+      className="d-block mx-auto"
       src="https://i.imgur.com/UDBoRJn.png"
       alt="Third slide"
     />

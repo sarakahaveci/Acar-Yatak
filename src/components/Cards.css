@@ -1,16 +1,9 @@
-/* .d{
-    border-radius:5px;
-    width: 100px;
-    height:50;
-} */
-img
-{
-   width: 100%;
-   margin: auto;
-}
-.carousel-inner img {
+.carousel{
+    background-color: red;
+    width:900px;
+    height:500px;
     margin: auto;
   }
-  .carousel{
-      margin-bottom: 50%;
+  .carousel > img {
+    margin: 0 auto;
   }

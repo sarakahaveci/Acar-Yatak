@@ -1,5 +1,5 @@
 .footer {
-    background-color: #414141;
+    background-color: #ffff;
     width: 100%;
     text-align: left;
     font-family: sans-serif;
@@ -26,7 +26,7 @@
   
   .footer .about {
     line-height: 20px;
-    color: #ffffff;
+    color: #a3850e;
     font-size: 13px;
     font-weight: normal;
     margin: 0;
@@ -34,7 +34,7 @@
   
   .footer .about span {
     display: block;
-    color: #ffffff;
+    color: #a3850e;
     font-size: 14px;
     font-weight: bold;
     margin-bottom: 20px;
@@ -49,10 +49,10 @@
     width: 35px;
     height: 35px;
     cursor: pointer;
-    background-color: #33383b;
+    background-color: #a3850e;
     border-radius: 2px;
     font-size: 20px;
-    color: #ffffff;
+    color: #a3850e;
     text-align: center;
     line-height: 35px;
     margin-right: 3px;
@@ -67,8 +67,8 @@
   }
   
   .footer .footer-center i {
-    background-color: #33383b;
-    color: #ffffff;
+    background-color: #ffff;
+    color: #a3850e;
     font-size: 25px;
     width: 38px;
     height: 38px;
@@ -86,7 +86,7 @@
   
   .footer .footer-center p {
     display: inline-block;
-    color: #ffffff;
+    color: #a3850e;
     vertical-align: middle;
     margin: 0;
   }
@@ -99,7 +99,7 @@
   }
   
   .footer .footer-center p a {
-    color: #0099ff;
+    color: #a3850e;
     text-decoration: none;
   }
   
@@ -111,18 +111,18 @@
   }
   
   .footer h2 {
-    color: #ffffff;
+    color: #a3850e;
     font-size: 36px;
     font-weight: normal;
     margin: 0;
   }
   
   .footer h2 span {
-    color: #0099ff;
+    color: #a3850e;
   }
   
   .footer .menu {
-    color: #ffffff;
+    color: #a3850e;
     margin: 20px 0 12px;
     padding: 0;
   }
@@ -135,11 +135,11 @@
   }
   
   .footer .menu a:hover {
-    color: #0099ff;
+    color: #a3850e;
   }
   
   .footer .name {
-    color: #0099ff;
+    color: #a3850e;
     font-size: 14px;
     font-weight: normal;
     margin: 0;
