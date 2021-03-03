@@ -1,9 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import './Footer.css';
 
 
 function Footer() {
+  const element = <FontAwesomeIcon icon={faCoffee} />
     return (
         <>
         <footer class="footer">
@@ -13,10 +16,9 @@ function Footer() {
     </p>
     <div class="icons">
       <a href='/https://www.facebook.com/Acaryatak'><i class="fa fa-facebook"></i></a>
-      <a href="#"><i class="fa fa-youtube"></i></a>
-      <a href="#"><i class="fa fa-linkedin"></i></a>
-      <a href="#"><i class="fa fa-google-plus"></i></a>
-      <a href="#"><i class="fa fa-instagram"></i></a>
+      <a href="https://www.youtube.com/channel/UCY06nUZTzMRlTg0hX2wxJtg"><i class="fa fa-youtube"></i></a>
+      <a href="https://tr.linkedin.com/in/fatih-acar-0aa073142"><i class="fa fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/acaryatak/"><i class="fa fa-instagram"></i></a>
     </div>
   </div>
   <div class="footer-center col-md-4 col-sm-6">
