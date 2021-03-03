@@ -22,7 +22,7 @@ function Footer() {
   <div class="footer-center col-md-4 col-sm-6">
     <div>
       <i class="fa fa-map-marker"></i>
-      <p><span> Vatan Mah. Esenler Cad. No:39 Azim İş Hani No:10</span> Istanbul,Turkey</p>
+      <p><span> Vatan Mah. Esenler Cad. No:39 Azim İş Hani No:10</span> Bayrampaşa-İstanbul /Turkey</p>
     </div>
     <div>
       <i class="fa fa-phone"></i>
@@ -34,20 +34,17 @@ function Footer() {
     </div>
   </div>
   <div class="footer-right col-md-4 col-sm-6">
-    <h2> Company<span> logo</span></h2>
+    <h2> <span> logo</span></h2>
     <p class="menu">
       <a href="#"> Home</a> |
       <a href="#"> Products</a> |
       <a href="#"> Sales Outlet</a> |
-      <a href="#"> About Us</a> ||
+      <a href="#"> About Us</a> |
       <a href="#"> Contact Us</a>
     </p>
-    <p class="name"> Fatih Acar &copy; 2021</p>
+    <p class="name"> Yaman Ka &copy; 2021</p>
   </div>
 </footer>
-           <small class='website-rights'>Yaman © 2021</small>
-                    <div class='social-icons'>
-                    </div>
         </>
     );
 }
