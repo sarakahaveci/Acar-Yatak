@@ -1,14 +1,16 @@
-import { Navbar, Nav, Form, Button } from "react-bootstrap";
+/* eslint-disable no-unused-vars */
+import {Navbar, Nav, Form, Button } from "react-bootstrap";
 import Languages from './Languages';
 import translation from '../translation';
 import React, { Fragment } from "react";
-import { Switch, Route,Router } from "react-router-dom";
+import { Switch, Route,Router,Link } from "react-router-dom";
+import Products from './components/Products.js';
 
 function NavBarComponent() {
   return (
 <>
     <Navbar class="p-3 mb-2 bg-light text-white" bg="light" expand="lg">
-      <Navbar.Brand href="#home">
+      <Navbar.Brand  as={Link} to="/" >
         <img
           className="logo"
           src="http://www.acaryatak.com/content/assets/default/img/logo.png"
@@ -19,7 +21,6 @@ function NavBarComponent() {
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-     
         <Nav className="ml-auto">
         <Languages/>
           <Form inline>
@@ -30,21 +31,16 @@ function NavBarComponent() {
             />
             <Button variant="outline-dark">Search</Button>
           </Form>
-          <Router> 
-          <Switch>
+          <Nav.Link as={Link} to="/">Home</Nav.Link>
           <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#products">Products</Nav.Link>
+          <Nav.Link as={Link} to="/Products">{Products}</Nav.Link>
           <Nav.Link href="#salesoutlet">Sales Outlet</Nav.Link>
           <Nav.Link href="#aboutus">About Us</Nav.Link>
           <Nav.Link href="#contactus">Contact Us</Nav.Link>
-          </Switch>
-          </Router>
-
+         
         </Nav>
       </Navbar.Collapse>
     </Navbar>
-   
     </>
   );
 }
