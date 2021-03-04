@@ -31,7 +31,8 @@
     "row": "^0.0.1",
     "universal-router": "^9.0.1",
     "web-vitals": "^1.1.0",
-    "yarn": "^1.22.10"
+    "yarn": "^1.22.10",
+    "yarnpkg": "^0.15.1"
   },
   "scripts": {
     "start": "react-scripts start",

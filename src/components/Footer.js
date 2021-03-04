@@ -27,8 +27,10 @@ function Footer() {
       <p><span> Vatan Mah. Esenler Cad. No:39 Azim İş Hani No:10</span> Bayrampaşa-İstanbul /Turkey</p>
     </div>
     <div>
+      <i class="fa fa-whatsapp"></i>
+      <p> (0537) 432 80 02</p><br/>
       <i class="fa fa-phone"></i>
-      <p> (0537) 432 80 02</p>
+       <p> (0212) 674 04 73</p>
     </div>
     <div>
       <i class="fa fa-envelope"></i>

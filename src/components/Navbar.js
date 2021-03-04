@@ -3,8 +3,13 @@ import {Navbar, Nav, Form, Button } from "react-bootstrap";
 import Languages from './Languages';
 import translation from '../translation';
 import React, { Fragment } from "react";
-import { Switch, Route,Router,Link } from "react-router-dom";
-import Products from './components/Products.js';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+// import Products from './components/Products.js';
 
 function NavBarComponent() {
   return (
@@ -31,13 +36,14 @@ function NavBarComponent() {
             />
             <Button variant="outline-dark">Search</Button>
           </Form>
+           <Router>
           <Nav.Link as={Link} to="/">Home</Nav.Link>
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link as={Link} to="/Products">{Products}</Nav.Link>
-          <Nav.Link href="#salesoutlet">Sales Outlet</Nav.Link>
-          <Nav.Link href="#aboutus">About Us</Nav.Link>
-          <Nav.Link href="#contactus">Contact Us</Nav.Link>
-         
+          <Nav.Link as={Link} to="/home">Home</Nav.Link>
+          <Nav.Link as={Link} to="/Products">Products</Nav.Link>
+          <Nav.Link as={Link} to="#salesoutlet">Sales Outlet</Nav.Link>
+          <Nav.Link as={Link} to="#aboutus">About Us</Nav.Link>
+          <Nav.Link as={Link} to="#contactus">Contact Us</Nav.Link>
+         </Router>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
