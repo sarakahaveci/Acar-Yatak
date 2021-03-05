@@ -9,10 +9,9 @@ function Footer() {
         <footer class="footer">
   <div class="footer-left col-md-4 col-sm-6">
     <p class="about">
-      <span> About the company</span>  aliquam quis augue. Nam ut nibh mollis, tristique ante sed, viverra massa.
-    </p>
+      <span> About the company</span> Our company, which started its commercial activities in the 1970s, has become the number 1 in the sector as ACAR YATAK with its strong equity and wide customer portfolio  </p>
     <div class="icons">
-      <a href='/https://www.facebook.com/Acaryatak'><i class="fa fa-facebook"></i></a>
+      <a href='https://www.facebook.com/Acaryatak'><i class="fa fa-facebook"></i></a>
       <a href="https://www.youtube.com/channel/UCY06nUZTzMRlTg0hX2wxJtg"><i class="fa fa-youtube"></i></a>
       <a href="https://tr.linkedin.com/in/fatih-acar-0aa073142"><i class="fa fa-linkedin"></i></a>
       <a href="https://www.instagram.com/acaryatak/"><i class="fa fa-instagram"></i></a>

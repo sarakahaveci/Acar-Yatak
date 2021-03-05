@@ -13,8 +13,8 @@ import "./Languages.css";
     <>
     <Col className="languageDropdown">
       <select onChange={(e) => changeLanguage(e.target.value)}>
+         <option value="ar">AR</option>
         <option value="en">EN</option>
-        <option value="ar">Ar</option>
         <option value="tr ">TR</option>
       </select>
     </Col>

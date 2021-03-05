@@ -4,6 +4,7 @@ import Dropdown from 'react-bootstrap/Dropdown'
 import Languages from './Languages';
 import translation from '../translation';
 import React, { Fragment } from "react";
+import Basements from './Basements'
 import {
   BrowserRouter as Router,
   Switch,
@@ -41,7 +42,7 @@ function NavBarComponent() {
           <Nav.Link as={Link} to="/">Home</Nav.Link>
           <Nav.Link as={Link} to="/home">Home</Nav.Link>
           <Dropdown>
-  <Dropdown.Toggle variant="outline-dark" id="dropdown-basic">
+  <Dropdown.Toggle variant="outline-dark" id="dropdown-split-basic">
     Products
   </Dropdown.Toggle>
 
