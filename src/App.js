@@ -1,6 +1,5 @@
 
 import './App.css';
-import Cards from './components/Cards';
 import Footer from './components/Footer';
 import NavbarComp from './components/Navbar';
 import Products from './components/Products';
@@ -10,10 +9,8 @@ import AboutUs from './components/aboutus/Aboutus';
 import ContactUs from './components/contactus/Contactus';
 
 import {
-  BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 
 function App() {

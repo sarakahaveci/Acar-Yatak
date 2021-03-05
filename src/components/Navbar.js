@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
-import {Navbar, Nav, Form, Button } from "react-bootstrap";
+import {Navbar, Nav, Form, Button} from "react-bootstrap";
+import Dropdown from 'react-bootstrap/Dropdown'
 import Languages from './Languages';
 import translation from '../translation';
 import React, { Fragment } from "react";
@@ -39,7 +40,18 @@ function NavBarComponent() {
            <Router>
           <Nav.Link as={Link} to="/">Home</Nav.Link>
           <Nav.Link as={Link} to="/home">Home</Nav.Link>
-          <Nav.Link as={Link} to="/Products">Products</Nav.Link>
+          <Dropdown>
+  <Dropdown.Toggle variant="outline-dark" id="dropdown-basic">
+    Products
+  </Dropdown.Toggle>
+
+  <Dropdown.Menu>
+    <Dropdown.Item href="#/Products">Beds</Dropdown.Item>
+    <Dropdown.Item href="#/Basements">Beds basements</Dropdown.Item>
+    <Dropdown.Item href="#/Linens">Linens</Dropdown.Item>
+  </Dropdown.Menu>
+</Dropdown>
+          <Nav.Link as={Link} to="/Products"></Nav.Link>
           <Nav.Link as={Link} to="#salesoutlet">Sales Outlet</Nav.Link>
           <Nav.Link as={Link} to="#aboutus">About Us</Nav.Link>
           <Nav.Link as={Link} to="#contactus">Contact Us</Nav.Link>

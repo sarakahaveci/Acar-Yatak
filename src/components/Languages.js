@@ -4,7 +4,7 @@ import { Col } from "react-bootstrap";
 import "./Languages.css";
 
  function Languages() {
-   const { t, i18n } = useTranslation();
+   const {  i18n } = useTranslation();
    const changeLanguage = lng => {
     i18n.changeLanguage(lng);
   }
