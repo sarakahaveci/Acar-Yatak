@@ -4,6 +4,7 @@ import Languages from "./Languages";
 import translation from "../translation";
 import React, { Fragment, useState } from "react";
 import Basements from "./Basements";
+import { MenuItems } from "./MenuItems";
 import {
   BrowserRouter as Router,
   Switch,
@@ -14,6 +15,9 @@ import {
 
 function NavBarComponent() {
   const [click, setClick] = useState(false);
+  const [dropdown, setDropdown] = useState(false);
+
+  const closeMobileMenu = () => setClick(false);
   const handleClick = () => setClick(!click);
 
   return (
@@ -43,20 +47,27 @@ function NavBarComponent() {
               </Form>
 
               <Dropdown>
-                <Dropdown.Toggle
-                  variant="outline-dark"
-                  id="dropdown-split-basic"
+                <ul
+                  onClick={handleClick}
+                  className={click ? "dropdown-menu clicked" : "dropdown-menu"}
                 >
-                  Products
-                </Dropdown.Toggle>
-
-                <Dropdown.Menu>
-                  <NavLink href="#/Beds">Beds</NavLink>
-                  <NavLink href="#/Basements">Beds basements</NavLink>
-                  <NavLink href="#/Linens">Linens</NavLink>
-                </Dropdown.Menu>
+                  {MenuItems.map((item, index) => {
+                    return (
+                      <li key={index}>
+                        <Link
+                          className={item.cName}
+                          to={item.path}
+                          onClick={() => setClick(false)}
+                        >
+                          {item.title}
+                        </Link>
+                      </li>
+                    );
+                  })}
+                </ul>
               </Dropdown>
-              <Nav.Link as={Link} to="/">
+
+              <Nav.Link as={Link} to="/home">
                 Home
               </Nav.Link>
               <Nav.Link as={Link} to="/Products">
