@@ -9,7 +9,7 @@ function Basements() {
       <Card style={{ width: '18rem' }}>
   <Card.Img variant="top" src="https://i.imgur.com/IqK8FMe.png/100px180" />
   <Card.Body>
-    <Card.Title>Comfort</Card.Title>
+    <Card.Title>Comfort</Card.Title>  
     <Card.Text>
       bed with its basement
     </Card.Text>

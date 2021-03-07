@@ -1,0 +1,18 @@
+-------------------- Auto-Git Log --------------------
+		Mon Mar 08 2021 00:19:43 GMT+0300 (Arabian Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/App.js
+* src/components/Navbar.js
+* src/index.js
+
+
+Created files:
+* .autogit/logs/log-7-2-2021-23-49-37.txt
+
+
+Deleted files:
+
+
+Renamed files:

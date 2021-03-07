@@ -43,6 +43,7 @@ function NavBarComponent() {
               <Nav.Link as={Link} to="/">
                 Home
               </Nav.Link>
+
               <Dropdown>
                 <Dropdown.Toggle
                   variant="outline-dark"
@@ -52,7 +53,7 @@ function NavBarComponent() {
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
-                  <Dropdown.Item href="#/Products">Beds</Dropdown.Item>
+                  <Dropdown.Item href="#/Beds">Beds</Dropdown.Item>
                   <Dropdown.Item href="#/Basements">
                     Beds basements
                   </Dropdown.Item>
