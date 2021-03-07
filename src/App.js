@@ -16,7 +16,13 @@ function App() {
       <NavbarComp />
       <main>
         <Switch>
-          <Route path="/home" component={Home} />
+          <Route
+            path="/"
+            exact
+            render={() => {
+              return <p>home</p>;
+            }}
+          />
           <Route path="/products" component={Products} />
           <Route path="/salesoutlet" component={SalesOutlet} />
           <Route path="/aboutus" component={AboutUs} />
