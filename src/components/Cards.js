@@ -32,7 +32,7 @@ import React from 'react'
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </Carousel.Caption>
   </Carousel.Item>
-  <Carousel.Item >
+  <Carousel.Item interval={700} >
     <img
       className="d-block mx-auto"
       src="https://i.imgur.com/UDBoRJn.png"
