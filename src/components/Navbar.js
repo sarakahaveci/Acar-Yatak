@@ -5,7 +5,13 @@ import Languages from "./Languages";
 import translation from "../translation";
 import React, { Fragment } from "react";
 import Basements from "./Basements";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  NavLink,
+} from "react-router-dom";
 // import Products from './components/Products.js';
 
 function NavBarComponent() {
@@ -37,9 +43,6 @@ function NavBarComponent() {
               <Nav.Link as={Link} to="/">
                 Home
               </Nav.Link>
-              <Nav.Link as={Link} to="/home">
-                Home
-              </Nav.Link>
               <Dropdown>
                 <Dropdown.Toggle
                   variant="outline-dark"
@@ -47,6 +50,7 @@ function NavBarComponent() {
                 >
                   Products
                 </Dropdown.Toggle>
+
                 <Dropdown.Menu>
                   <Dropdown.Item href="#/Products">Beds</Dropdown.Item>
                   <Dropdown.Item href="#/Basements">
@@ -55,7 +59,12 @@ function NavBarComponent() {
                   <Dropdown.Item href="#/Linens">Linens</Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
-              <Nav.Link as={Link} to="/Products"></Nav.Link>
+              <Nav.Link as={Link} to="/home">
+                Home
+              </Nav.Link>
+              <Nav.Link as={Link} to="/Products">
+                Products
+              </Nav.Link>
               <Nav.Link as={Link} to="#salesoutlet">
                 Sales Outlet
               </Nav.Link>

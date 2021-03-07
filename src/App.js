@@ -1,19 +1,28 @@
 import React from "react";
-import { Route } from "react-router-dom";
 import "./App.css";
 import Footer from "./components/Footer";
 import NavbarComp from "./components/Navbar";
+import Products from "./components/Products";
 import Home from "./components/home/Home";
-import { BrowserRouter, Link } from "react-router-dom";
+import SalesOutlet from "./components/salesoutlet/Salesoutlet";
+import AboutUs from "./components/aboutus/Aboutus";
+import ContactUs from "./components/contactus/Contactus";
+
+import { Switch, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       <NavbarComp />
-      <BrowserRouter>
-        <Link to="/home" /> // renders <a href="/home" />
-        <Link to="/beds" /> // renders <a href="/beds" />
-      </BrowserRouter>
+      <main>
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/products" component={Products} />
+          <Route path="/salesoutlet" component={SalesOutlet} />
+          <Route path="/aboutus" component={AboutUs} />
+          <Route path="/contacts" component={ContactUs} />
+        </Switch>
+      </main>
       <Footer />
     </div>
   );
