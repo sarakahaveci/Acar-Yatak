@@ -30,6 +30,7 @@
     "react-router-dom": "^5.2.0",
     "react-routing": "^0.0.7",
     "react-scripts": "4.0.3",
+    "reactstrap": "^8.9.0",
     "route-blocker": "^1.2.1",
     "row": "^0.0.1",
     "universal-router": "^9.0.1",
