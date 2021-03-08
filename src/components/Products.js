@@ -1,14 +1,13 @@
 import React from 'react';
 import Beds from './Beds';
-import Basements from './Basements';
 import Linens from './Linens';
-import OnePersonsBed from './OnePersonsBed';
-import TwoPersonsBed from './TwoPersonsBed';
+
+import TwoPersonBase from './TwoPersonBase';
 function Products() {
   return (
     <div>
       
-      <TwoPersonsBed/>
+      <TwoPersonBase/>
     </div>
   )
 }
