@@ -31,15 +31,15 @@ function NavBarComponent() {
   <Languages/>
     <Nav className="mr-auto">
       <Nav.Link href="/">Home</Nav.Link>
-      <Nav.Link href="salesOut">Sales Out</Nav.Link>
+      <Nav.Link href="Salesoutlet">Sales Out</Nav.Link>
 
-      <NavDropdown title="Products" id="basic-nav-dropdown">
-      <Dropdown.Item as={Link} to="OnePersonBed">One Person Beds</Dropdown.Item>
+      <NavDropdown title="Product" id="basic-nav-dropdown">
+      <Dropdown.Item as={Link} to="OnePersonsBed">One Person Beds</Dropdown.Item>
       <Dropdown.Item as={Link} to="TwoPersonsBed">Two Person Beds</Dropdown.Item>
       <Dropdown.Item as={Link} to="OnePersonBase">One Person Beds Basement</Dropdown.Item>
       <Dropdown.Item as={Link} to="TwoPersonBase">Two Person Beds Basement</Dropdown.Item>
       <Dropdown.Item as={Link} to="Bunks">Beds Bunks</Dropdown.Item>
-      <Dropdown.Item as={Link} to="linenes">Linens</Dropdown.Item>
+      <Dropdown.Item as={Link} to="linens">Linens</Dropdown.Item>
         <NavDropdown.Divider />
         <NavDropdown.Item href="Products">Products</NavDropdown.Item>
       </NavDropdown>
