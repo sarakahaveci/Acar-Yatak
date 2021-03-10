@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/yamoonz/Acar-Yatak",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -14,6 +15,7 @@
     "bootstrap": "^4.6.0",
     "col": "^0.1.0",
     "font-awesome": "^4.7.0",
+    "gh-pages": "^3.1.0",
     "i18next": "^19.9.1",
     "i18next-browser-languagedetector": "^6.0.1",
     "install": "^0.13.0",
@@ -42,6 +44,8 @@
     "yarnpkg": "^0.0.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
