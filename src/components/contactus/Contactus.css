@@ -1,6 +1,6 @@
  .contactus{
        display: inline;
-       text-color:#a3850e;
+       
  background-color: #ffff;
     color: #a3850e;
     font-size: 20px;
@@ -11,4 +11,9 @@
     line-height: 20px;
     margin: 10px 15px;
     vertical-align: middle;
+    }
+    p{
+          padding-top: 50px;
+          font-size: 20px;
+      color:#a3850e;
     }

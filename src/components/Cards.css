@@ -1,9 +1,12 @@
 .carousel{
-    background-color: red;
     width:900px;
     height:500px;
     margin: auto;
   }
   .carousel > img {
     margin: 0 auto;
+  }
+  p h3{
+    color:rgb(228, 151, 51);
+
   }
