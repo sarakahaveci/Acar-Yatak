@@ -35,9 +35,12 @@ function NavBarComponent() {
           <Languages />
           <Nav className="mr-auto">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="salesOut">Sales Out</Nav.Link>
-            <NavDropdown title="Products" id="basic-nav-dropdown">
-              <Dropdown.Item href="OnePersonBed">One Person Beds</Dropdown.Item>
+            <Nav.Link href="Salesoutlet">Sales Out</Nav.Link>
+
+            <NavDropdown title="Product" id="basic-nav-dropdown">
+              <Dropdown.Item as={Link} to="OnePersonsBed">
+                One Person Beds
+              </Dropdown.Item>
               <Dropdown.Item as={Link} to="TwoPersonsBed">
                 Two Person Beds
               </Dropdown.Item>
@@ -50,7 +53,7 @@ function NavBarComponent() {
               <Dropdown.Item as={Link} to="Bunks">
                 Beds Bunks
               </Dropdown.Item>
-              <Dropdown.Item as={Link} to="linenes">
+              <Dropdown.Item as={Link} to="linens">
                 Linens
               </Dropdown.Item>
               <NavDropdown.Divider />

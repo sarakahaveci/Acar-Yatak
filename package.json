@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/yamoonz/Acar-Yatak",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -14,10 +15,14 @@
     "bootstrap": "^4.6.0",
     "col": "^0.1.0",
     "font-awesome": "^4.7.0",
+    "gh-pages": "^3.1.0",
     "i18next": "^19.9.1",
     "i18next-browser-languagedetector": "^6.0.1",
+    "install": "^0.13.0",
     "jquery": "^3.5.1",
+    "jupyter": "^0.0.0",
     "navbar": "^2.1.0",
+    "pip": "^0.0.1",
     "popper.js": "^1.16.1",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
@@ -36,9 +41,11 @@
     "universal-router": "^9.0.1",
     "web-vitals": "^1.1.0",
     "yarn": "^1.22.10",
-    "yarnpkg": "^0.15.1"
+    "yarnpkg": "^0.0.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

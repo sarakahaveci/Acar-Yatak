@@ -6,8 +6,7 @@ import TwoPersonBase from './TwoPersonBase';
 function Products() {
   return (
     <div>
-      
-      <TwoPersonBase/>
+      <Beds/>
     </div>
   )
 }
