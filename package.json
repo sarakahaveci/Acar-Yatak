@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/yamoonz/Acar-Yatak",
+  "homepage": "https://yamoonz.github.io/Acar-Yatak",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -69,7 +69,6 @@
     ]
   },
   "devDependencies": {
-    "@types/gh-pages": "^3.0.0",
     "gh-pages": "^3.1.0"
   }
 }
