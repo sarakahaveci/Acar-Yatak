@@ -1,0 +1,18 @@
+-------------------- Auto-Git Log --------------------
+		Sun Mar 14 2021 20:53:11 GMT+0300 (Arabian Standard Time)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* .autogit/logs/log-13-2-2021-0-21-38.txt
+* package.json
+
+
+Deleted files:
+* package-lock.json
+* yarn.lock
+
+
+Renamed files:
