@@ -41,6 +41,7 @@
     "reactstrap": "^8.9.0",
     "route-blocker": "^1.2.1",
     "row": "^0.0.1",
+    "translate-google-api": "^1.0.4",
     "universal-router": "^9.0.1",
     "web-vitals": "^1.1.0",
     "yarn": "^1.22.10",
