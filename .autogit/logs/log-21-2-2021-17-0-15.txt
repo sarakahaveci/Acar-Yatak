@@ -1,0 +1,20 @@
+-------------------- Auto-Git Log --------------------
+		Sun Mar 21 2021 17:00:15 GMT+0300 (Arabian Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/App.js
+* src/components/home/Home.js
+
+
+Created files:
+* src/components/config/i18next.js
+* yarn.lock
+
+
+Deleted files:
+
+
+Renamed files:
+* [object Object]
+* [object Object]
