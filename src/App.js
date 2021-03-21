@@ -1,18 +1,18 @@
 import React from "react";
 import "./App.css";
 import Footer from "./components/Footer";
-import NavbarComp from "./components/Navbar";
-import Products from "./components/Products";
+import NavbarComp from "./components/navbar/Navbar";
+import Products from "./components/dropdown/Products";
 import Home from "./components/home/Home";
-import SalesOutlet from "./components/salesoutlet/Salesoutlet";
-import AboutUs from "./components/aboutus/Aboutus";
-import ContactUs from "./components/contactus/Contactus";
-import OnePersonsBed from "./components/OnePersonsBed";
-import TwoPersonsBed from "./components/TwoPersonsBed";
-import OnePersonBase from "./components/OnePersonBase";
-import TwoPersonBase from "./components/TwoPersonBase";
-import Bunks from "./components/Bunks";
-import Linens from "./components/Linens";
+import SalesOutlet from "./components/navbar/salesoutlet/Salesoutlet";
+import AboutUs from "./components/navbar/aboutus/Aboutus";
+import ContactUs from "./components/navbar/contactus/Contactus";
+import OnePersonsBed from "./components/dropdown/OnePersonsBed";
+import TwoPersonsBed from "./components/dropdown/TwoPersonsBed";
+import OnePersonBase from "./components/dropdown/OnePersonBase";
+import TwoPersonBase from "./components/dropdown/TwoPersonBase";
+import Bunks from "./components/dropdown/Bunks";
+import Linens from "./components/dropdown/Linens";
 import { Switch, Route } from "react-router-dom";
 
 function App() {
