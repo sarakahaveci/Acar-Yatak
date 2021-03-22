@@ -81,5 +81,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "description": "this is a website done for Acar Yatak company                                                                                                                                                                                                                     \r all rights reserved.",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yamoonz/Acar-Yatak.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yamoonz/Acar-Yatak/issues"
   }
 }
