@@ -7,6 +7,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.min.css";
 import "./i18n";
 import { BrowserRouter } from "react-router-dom";
+import { setConfig } from "react-google-translate";
+
+setConfig({
+  clientEmail: process.env.REACT_APP_GCP_CLIENT_EMAIL ?? "",
+  privateKey: process.env.REACT_APP_GCP_PRIVATE_KEY ?? "",
+  projectId: process.env.REACT_APP_GCP_PROJECT_ID ?? "",
+});
 
 ReactDOM.render(
   <BrowserRouter>

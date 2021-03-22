@@ -43,6 +43,7 @@
     "react-router-dom": "^5.2.0",
     "react-routing": "^0.0.7",
     "react-scripts": "^4.0.3",
+    "react-translate-component": "^0.15.1",
     "reactstrap": "^8.9.0",
     "route-blocker": "^1.2.1",
     "row": "^0.0.1",
