@@ -8,24 +8,24 @@ import {
 } from "react-bootstrap";
 import Dropdown from "react-bootstrap/Dropdown";
 import Languages from "./Languages";
-import { Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function NavBarComponent() {
- 
   return (
     <>
-      <img
-        className="logo"
-        src="https://i.imgur.com/4XugT2h.jpg"
-        width="200px"
-        height="10%"
-        alt="Acar Yatak logo"
-      />
-      <Navbar bg="light" class="text-danger" expand="lg">
+      <Navbar class="p-3 mb-2 bg-light text-white" bg="light" expand="lg">
+        <Navbar.Brand href="#home">
+          <img
+            className="logo"
+            src="https://i.imgur.com/4XugT2h.jpg"
+            width="150px"
+            height="130px"
+            alt="Acar Yatak logo"
+          />
+        </Navbar.Brand>
         <Navbar.Brand href="/">Acar Yatak</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Languages />
           <Nav className="mr-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="Salesoutlet">Sales Out</Nav.Link>
@@ -55,10 +55,13 @@ function NavBarComponent() {
             <Nav.Link href="aboutus">About Us</Nav.Link>
             <Nav.Link href="contactus">Contact Us</Nav.Link>
           </Nav>
+
           <Form inline>
             <FormControl type="text" placeholder="Search" className="mr-sm-2" />
             <Button variant="outline-danger">Search</Button>
           </Form>
+          <div className="languages">          <Languages /></div>
+
         </Navbar.Collapse>
       </Navbar>
     </>
