@@ -23,7 +23,7 @@ function NavBarComponent() {
     <>
       <img
         className="logo"
-        src="http://www.acaryatak.com/content/assets/default/img/logo.png"
+        src="https://i.imgur.com/4XugT2h.jpg"
         width="200px"
         height="10%"
         alt="Acar Yatak logo"
@@ -64,7 +64,7 @@ function NavBarComponent() {
           </Nav>
           <Form inline>
             <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-            <Button variant="outline-success">Search</Button>
+            <Button variant="outline-danger">Search</Button>
           </Form>
         </Navbar.Collapse>
       </Navbar>

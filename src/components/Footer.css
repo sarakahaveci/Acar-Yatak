@@ -26,7 +26,7 @@
   
   .footer .about {
     line-height: 20px;
-    color: #a3850e;
+    color: #ca0d16;
     font-size: 13px;
     font-weight: normal;
     margin: 0;
@@ -34,7 +34,7 @@
   
   .footer .about span {
     display: block;
-    color: #a3850e;
+    color: #ca0d16;
     font-size: 14px;
     font-weight: bold;
     margin-bottom: 20px;
@@ -52,7 +52,7 @@
     background-color: #fff;
     border-radius: 2px;
     font-size: 20px;
-    color: #a3850e;
+    color: #ca0d16;
     text-align: center;
     line-height: 35px;
     margin-right: 3px;
@@ -68,7 +68,7 @@
   
   .footer .footer-center i {
     background-color: #ffff;
-    color: #a3850e;
+    color: #ca0d16;
     font-size: 25px;
     width: 38px;
     height: 38px;
@@ -86,7 +86,7 @@
   
   .footer .footer-center p {
     display: inline-block;
-    color: #a3850e;
+    color: #ca0d16;
     vertical-align: middle;
     margin: 0;
   }
@@ -99,7 +99,7 @@
   }
   
   .footer .footer-center p a {
-    color: #a3850e;
+    color: #ca0d16;
     text-decoration: none;
   }
   
@@ -112,18 +112,18 @@
   }
   
   .footer h2 {
-    color: #a3850e;
+    color: #ca0d16;
     font-size: 36px;
     font-weight: normal;
     margin: 0;
   }
   
   .footer h2 span {
-    color: #a3850e;
+    color: #ca0d16;
   }
   
   .footer .menu {
-    color: #a3850e;
+    color: #ca0d16;
     margin: 20px 0 12px;
     padding: 0;
   }
@@ -136,18 +136,18 @@
   }
   
   .footer .menu a:hover {
-    color: #a3850e;
+    color: #ca0d16;
   }
   
   .footer .name {
-    color: #a3850e;
+    color: #ca0d16;
     font-size: 14px;
     font-weight: normal;
     margin: 0;
   }
   .website-rights {
   
-    color:  #a3850e;
+    color:  #ca0d16;
     margin-left: 100px;
 }
   @media (max-width: 767px) {

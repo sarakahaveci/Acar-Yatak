@@ -52,8 +52,13 @@ function Footer() {
           <h2>
             {" "}
             <span>
-              {" "}
-              <img src="logo.jpeg"></img>{" "}
+              <img
+                className="logo"
+                src="https://i.imgur.com/4XugT2h.jpg"
+                width="200px"
+                height="10%"
+                alt="Acar Yatak logo"
+              />
             </span>
           </h2>
           <p class="menu">

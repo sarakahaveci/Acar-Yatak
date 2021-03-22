@@ -6,7 +6,6 @@ function Aboutus() {
       <div>
         <h3>Who are we</h3>
         <p>
-          {" "}
           Our company, which started its commercial activities in the 1970s, has
           become the number 1 in the sector as ACAR YATAK <br /> with its strong
           equity and wide customer portfolio.
