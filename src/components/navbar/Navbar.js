@@ -23,6 +23,8 @@ function NavBarComponent() {
             alt="Acar Yatak logo"
           />
         </Navbar.Brand>
+
+        <Languages />
         <Navbar.Brand href="/">Acar Yatak</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -60,8 +62,6 @@ function NavBarComponent() {
             <FormControl type="text" placeholder="Search" className="mr-sm-2" />
             <Button variant="outline-danger">Search</Button>
           </Form>
-          <div className="languages">          <Languages /></div>
-
         </Navbar.Collapse>
       </Navbar>
     </>

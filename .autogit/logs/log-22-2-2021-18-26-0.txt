@@ -1,0 +1,20 @@
+-------------------- Auto-Git Log --------------------
+		Mon Mar 22 2021 18:26:00 GMT+0300 (Arabian Standard Time)
+------------------------------------------------------
+
+Modified files:
+* package.json
+* src/App.js
+* src/components/navbar/Navbar.css
+* src/components/navbar/Navbar.js
+* yarn.lock
+
+
+Created files:
+* .autogit/logs/log-22-2-2021-17-55-51.txt
+
+
+Deleted files:
+
+
+Renamed files:
