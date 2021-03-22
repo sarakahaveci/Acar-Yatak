@@ -28,7 +28,7 @@ function Aboutus() {
           equipment{" "}
         </p>
       </div>
-      <h3>Vision</h3>
+      <h3>Our Vision</h3>
       <p>
         In the long run, our company, which aims to grow and become a world
         brand,
