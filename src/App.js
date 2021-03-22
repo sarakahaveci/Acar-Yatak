@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./App.css";
 import Footer from "./components/Footer";
 import NavbarComp from "./components/navbar/Navbar";
@@ -16,28 +16,52 @@ import Linens from "./components/dropdown/Linens";
 import { Switch, Route } from "react-router-dom";
 
 function App() {
-  return (
-    <div className="App">
-      <NavbarComp />
-      <main>
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/products" component={Products} />
-          <Route path="/OnePersonsBed" component={OnePersonsBed} />
-          <Route path="/TwoPersonsBed" component={TwoPersonsBed} />
-          <Route path="/OnePersonBase" component={OnePersonBase} />
-          <Route path="/TwoPersonBase" component={TwoPersonBase} />
-          <Route path="/Bunks" component={Bunks} />
-          <Route path="/linens" component={Linens} />
-          <Route path="/products" component={Products} />
-          <Route path="/salesoutlet" component={SalesOutlet} />
-          <Route path="/aboutus" component={AboutUs} />
-          <Route path="/contactus" component={ContactUs} />
-        </Switch>
-      </main>
-      <Footer />
-    </div>
-  );
+  const SamplePage = () => {
+    const googleTranslateElementInit = () => {
+      new window.google.translate.TranslateElement(
+        {
+          pageLanguage: "en",
+          autoDisplay: false,
+          layout:
+            window.google.translate.TranslateElement.FloatPosition.TOP_LEFT,
+        },
+        "google_translate_element"
+      );
+    };
+    useEffect(() => {
+      var addScript = document.createElement("script");
+      addScript.setAttribute(
+        "src",
+        "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+      );
+      document.body.appendChild(addScript);
+      window.googleTranslateElementInit = googleTranslateElementInit;
+    }, []);
+    return (
+      <>
+        <div className="App">
+          <div id="google_translate_element"></div>
+          <NavbarComp />
+          <main>
+            <Switch>
+              <Route path="/" exact component={Home} />
+              <Route path="/products" component={Products} />
+              <Route path="/OnePersonsBed" component={OnePersonsBed} />
+              <Route path="/TwoPersonsBed" component={TwoPersonsBed} />
+              <Route path="/OnePersonBase" component={OnePersonBase} />
+              <Route path="/TwoPersonBase" component={TwoPersonBase} />
+              <Route path="/Bunks" component={Bunks} />
+              <Route path="/linens" component={Linens} />
+              <Route path="/products" component={Products} />
+              <Route path="/salesoutlet" component={SalesOutlet} />
+              <Route path="/aboutus" component={AboutUs} />
+              <Route path="/contactus" component={ContactUs} />
+            </Switch>
+          </main>
+          <Footer />
+        </div>
+      </>
+    );
+  };
 }
-
 export default App;
