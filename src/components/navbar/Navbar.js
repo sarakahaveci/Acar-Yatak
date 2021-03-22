@@ -1,6 +1,5 @@
 import {
   Nav,
-  NavItem,
   Button,
   Form,
   Navbar,
@@ -9,16 +8,10 @@ import {
 } from "react-bootstrap";
 import Dropdown from "react-bootstrap/Dropdown";
 import Languages from "./Languages";
-import React, { Fragment, useState } from "react";
-import { BrowserRouter, Link, NavLink } from "react-router-dom";
+import { Link} from "react-router-dom";
 
 function NavBarComponent() {
-  const [click, setClick] = useState(false);
-  const [dropdown, setDropdown] = useState(false);
-
-  const closeMobileMenu = () => setClick(false);
-  const handleClick = () => setClick(!click);
-
+ 
   return (
     <>
       <img
@@ -28,8 +21,8 @@ function NavBarComponent() {
         height="10%"
         alt="Acar Yatak logo"
       />
-      <Navbar bg="light" expand="lg">
-        <Navbar.Brand href="#">Acar Yatak</Navbar.Brand>
+      <Navbar bg="light" class="text-danger" expand="lg">
+        <Navbar.Brand href="/">Acar Yatak</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Languages />

@@ -1,14 +1,11 @@
-import React from 'react';
-import Beds from './Beds';
-import Linens from './Linens';
-
-import TwoPersonBase from './TwoPersonBase';
+import React from "react";
+import Beds from "./Beds";
 function Products() {
   return (
     <div>
-      <Beds/>
+      <Beds />
     </div>
-  )
+  );
 }
 
-export default Products
+export default Products;

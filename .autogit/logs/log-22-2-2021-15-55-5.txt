@@ -1,0 +1,23 @@
+-------------------- Auto-Git Log --------------------
+		Mon Mar 22 2021 15:55:05 GMT+0300 (Arabian Standard Time)
+------------------------------------------------------
+
+Modified files:
+* package-lock.json
+* package.json
+* src/components/Footer.css
+* src/components/Footer.js
+* src/components/navbar/Navbar.js
+* src/components/navbar/aboutus/Aboutus.css
+* src/components/navbar/aboutus/Aboutus.js
+* yarn.lock
+
+
+Created files:
+* .autogit/logs/log-22-2-2021-15-24-56.txt
+
+
+Deleted files:
+
+
+Renamed files:
