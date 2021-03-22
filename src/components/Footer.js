@@ -36,7 +36,7 @@ function Footer() {
     </div>
   </div>
   <div class="footer-right col-md-4 col-sm-6">
-    <h2> <span> logo</span></h2>
+    <h2> <span> <img src="logo.jpeg"></img> </span></h2>
     <p class="menu">
       <a href="Home"> Home</a> |
       <a href="prodcuts"> Products</a> |
