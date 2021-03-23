@@ -7,6 +7,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.min.css";
 import "./i18n";
 import { BrowserRouter } from "react-router-dom";
+import { Provider } from 'react-translated';
+import translation from './translation'
 
 ReactDOM.render(
   <BrowserRouter>

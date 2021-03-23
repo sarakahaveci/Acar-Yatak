@@ -14,7 +14,7 @@ import TwoPersonBase from "./components/dropdown/TwoPersonBase";
 import Bunks from "./components/dropdown/Bunks";
 import Linens from "./components/dropdown/Linens";
 import { Switch, Route } from "react-router-dom";
-
+import ReactTranslated from "react-translated";
 
 function App() {
   return (
