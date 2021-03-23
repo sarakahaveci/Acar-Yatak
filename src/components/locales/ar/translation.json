@@ -1,5 +1,8 @@
   {
-    "homepage": {
-      "Footer": {
-        "Home": "الصفحة الرئيسية"
-        }}}
+    "home": {
+      "Navbar": {
+        "Home": "الصفحة الرئيسية",
+        "SalesOutlet" : "عملاؤنا"
+        }
+  }
+}
