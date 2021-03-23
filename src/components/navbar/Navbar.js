@@ -23,11 +23,12 @@ function NavBarComponent() {
             alt="Acar Yatak logo"
           />
         </Navbar.Brand>
-
-        <Languages />
         <Navbar.Brand href="/">Acar Yatak</Navbar.Brand>
+        
+        <Languages />
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
+        
           <Nav className="mr-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="Salesoutlet">Sales Out</Nav.Link>
