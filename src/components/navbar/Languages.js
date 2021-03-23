@@ -1,20 +1,30 @@
-import React from "react";
-import i18next from "i18next";
-import { Col } from "react-bootstrap";
-import "./Languages.css";
+import React, { useEffect } from "react";
 
-export default function LanguageDropdown() {
-  function setLanguage(language) {
-    i18next.changeLanguage(language);
+function SamplePage() {
+  function googleTranslateElementInit() {
+    new window.google.translate.TranslateElement(
+      {
+        pageLanguage: "en",
+        autoDisplay: false,
+        layout: window.google.translate.TranslateElement.FloatPosition.TOP_LEFT,
+      },
+      "google_translate_element"
+    );
+
+    useEffect(() => {
+      var addScript = document.createElement("script");
+      addScript.setAttribute(
+        "src",
+        "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+      );
+      document.body.appendChild(addScript);
+      window.googleTranslateElementInit = googleTranslateElementInit;
+    }, []);
+    return (
+      <>
+        <div id="google_translate_element"></div>
+      </>
+    );
   }
-
-  return (
-    <Col className="languageDropdown">
-      <select onChange={(e) => setLanguage(e.target.value)}>
-        <option value="en">EN</option>
-        <option value="ar">TR</option>
-        <option value="ar">AR</option>
-      </select>
-    </Col>
-  );
 }
+export default SamplePage;
