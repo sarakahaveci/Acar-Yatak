@@ -1,0 +1,19 @@
+-------------------- Auto-Git Log --------------------
+		Wed Mar 24 2021 17:58:07 GMT+0300 (Arabian Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/App.js
+* src/index.js
+
+
+Created files:
+* .autogit/logs/log-24-2-2021-17-27-56.txt
+* src/Convert.js
+
+
+Deleted files:
+* src/Appgt.js
+
+
+Renamed files:
