@@ -14,15 +14,14 @@ function NavBarComponent() {
   return (
     <>
       <Navbar class="p-3 mb-2 bg-light text-white" bg="light" expand="lg">
-        <Navbar.Brand href="#home">  
-        <img
+        <Navbar.Brand href="#home">
+          <img
             className="logo"
-            src="https://i.imgur.com/4XugT2h.jpg"
+            src="https://i.imgur.com/DxLjgyB.jpg"
             width="150px"
-            height="130px"
+            height="auto"
             alt="Acar Yatak logo"
           />
-          
         </Navbar.Brand>
         <Navbar.Brand href="/">Acar Yatak</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
