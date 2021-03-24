@@ -18,10 +18,6 @@ import googletranslate from "translate-google-api";
 import * as ReactTranslated from "react-translated";
 import Appgt from "./Appgt";
 function App() {
-  new google.translate.TranslateElement(
-    { pageLanguage: "en" },
-    "google_translate_element"
-  );
   return (
     <div className="App">
       <Appgt />

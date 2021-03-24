@@ -1,3 +1,6 @@
+import { Component } from "react";
+import React from "react";
+import axios from "axios";
 class App extends Component {
   constructor(props) {
     super(props);
