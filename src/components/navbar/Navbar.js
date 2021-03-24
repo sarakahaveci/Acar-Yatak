@@ -18,7 +18,7 @@ function NavBarComponent() {
           <img
             className="logo"
             src="https://i.imgur.com/DxLjgyB.jpg"
-            width="150px"
+            width="140px"
             height="auto"
             alt="Acar Yatak logo"
           />

@@ -14,12 +14,18 @@ import TwoPersonBase from "./components/dropdown/TwoPersonBase";
 import Bunks from "./components/dropdown/Bunks";
 import Linens from "./components/dropdown/Linens";
 import { Switch, Route } from "react-router-dom";
-
+import googletranslate from "translate-google-api";
+import * as ReactTranslated from "react-translated";
 
 function App() {
+  new google.translate.TranslateElement(
+    { pageLanguage: "en" },
+    "google_translate_element"
+  );
   return (
     <div className="App">
       <NavbarComp />
+      <div id="google_translate_element"></div>
       <main>
         <Switch>
           <Route path="/" exact component={Home} />
