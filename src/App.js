@@ -16,7 +16,7 @@ import Linens from "./components/dropdown/Linens";
 import { Switch, Route } from "react-router-dom";
 import googletranslate from "translate-google-api";
 import * as ReactTranslated from "react-translated";
-
+import Appgt from "./Appgt";
 function App() {
   new google.translate.TranslateElement(
     { pageLanguage: "en" },
@@ -24,6 +24,7 @@ function App() {
   );
   return (
     <div className="App">
+      <Appgt />
       <NavbarComp />
       <div id="google_translate_element"></div>
       <main>

@@ -7,7 +7,23 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.min.css";
 import "./i18n";
 import { BrowserRouter } from "react-router-dom";
+import route from 'react-router';
 
+route.post('/', (req, res) => {
+  var q = req.body.q;
+  console.log(q);
+var options = { method: 'POST',
+url: 'https://translation.googleapis.com/language/translate/v2',
+form: 
+ { key: process.env.TRANSLATE,
+   q: q,
+   target: 'en' } };
+  request(options, function (error, response, body) {
+  if (error) throw new Error(error);
+  console.log(body);
+  res.send(body);
+  });
+})
 
 
 ReactDOM.render(
