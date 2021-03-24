@@ -1,0 +1,19 @@
+-------------------- Auto-Git Log --------------------
+		Wed Mar 24 2021 17:27:56 GMT+0300 (Arabian Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/App.js
+* src/Appgt.js
+* src/index.js
+* yarn.lock
+
+
+Created files:
+* .autogit/logs/log-24-2-2021-16-57-42.txt
+
+
+Deleted files:
+
+
+Renamed files:
