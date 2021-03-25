@@ -1,10 +1,16 @@
+
+  p{
+   color: yellowgreen;
+    font-size: 1px;
+  }
+
 .footer {
     background-color: #ffff;
     width: 100%;
     text-align: left;
     font-family: sans-serif;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 10px;
     padding: 50px;
     margin-top: 50px;
   }
@@ -34,7 +40,7 @@
   
   .footer .about span {
     display: block;
-    color: #ca0d16;
+    color: #1b0847;
     font-size: 14px;
     font-weight: bold;
     margin-bottom: 20px;
@@ -57,10 +63,10 @@
     line-height: 35px;
     margin-right: 3px;
     margin-bottom: 5px;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    -ms-border-radius:0;
+    -o-border-radius:0;
 }
   
   
@@ -99,19 +105,12 @@
     margin: 0;
   }
   
-  .footer .footer-center p span {
+  .footer .footer-center div span {
     display: block;
     font-weight: normal;
     font-size: 14px;
     line-height: 2;
   }
-  
-  .footer .footer-center p a {
-    color: #ca0d16;
-    text-decoration: none;
-  }
-  
-  
   /* footer right*/
   
   .footer .footer-right {
@@ -150,7 +149,7 @@
   .footer .name {
     color: #1b0847;
     font-size: 14px;
-    font-weight: normal;
+    font-weight: bold;
     margin: 0;
   }
   .website-rights {

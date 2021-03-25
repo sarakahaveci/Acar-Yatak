@@ -38,14 +38,14 @@ function Footer() {
 
           <div>
             <i class="fa fa-whatsapp"></i>
-            <p> (0537) 432 80 02</p>
+            <div> (0537) 432 80 02 </div>
             <br />
             <i class="fa fa-phone"></i>
-            <p> (0212) 674 04 73</p>
+            <div> (0212) 674 04 73</div>
           </div>
           <div>
             <i class="fa fa-envelope"></i>
-            <p> info@yurosunger.com</p>
+            <div> info@yurosunger.com </div>
           </div>
         </div>
         <div class="footer-right col-md-4 col-sm-6">
