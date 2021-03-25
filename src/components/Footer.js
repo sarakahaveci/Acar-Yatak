@@ -30,10 +30,11 @@ function Footer() {
         <div class="footer-center col-md-4 col-sm-6">
           <div>
             <i class="fa fa-map-marker"></i>
-            <p>
+            <span>
               <span>Bayrampaşa </span>
-              <span> Vatan Mah. Esenler Cad. No:39</span> Istanbul, Turkey
-            </p>
+              <span> Vatan Mah. Esenler Cad. No:39</span><br/>
+               Istanbul, Turkey
+            </span>
           </div>
 
           <div>
