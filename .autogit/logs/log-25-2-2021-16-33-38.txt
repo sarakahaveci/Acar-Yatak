@@ -1,0 +1,17 @@
+-------------------- Auto-Git Log --------------------
+		Thu Mar 25 2021 16:33:38 GMT+0300 (Arabian Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/components/Footer.css
+* src/components/Footer.js
+
+
+Created files:
+* .autogit/logs/log-25-2-2021-15-21-54.txt
+
+
+Deleted files:
+
+
+Renamed files:

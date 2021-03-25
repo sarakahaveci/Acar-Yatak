@@ -1,8 +1,4 @@
 
-  p{
-   color: yellowgreen;
-    font-size: 1px;
-  }
 
 .footer {
     background-color: #ffff;
@@ -20,8 +16,11 @@
   .footer .footer-right {
     display: inline-block;
     vertical-align: top;
+    margin-top: auto;
   }
-  
+  .footer .footer-right {
+    margin-bottom: 10;
+  }
   
   /* footer left*/
   
@@ -45,7 +44,6 @@
     font-weight: bold;
     margin-bottom: 20px;
   }
-  
   .footer .icons {
     margin-top: 25px;
   }
@@ -58,15 +56,15 @@
     background-color: #fff;
     border-radius: 2px;
     font-size: 20px;
-    color: #1b0847;
+    color: #ca0d16;
     text-align: center;
     line-height: 35px;
     margin-right: 3px;
     margin-bottom: 5px;
-    -webkit-border-radius:0;
-    -moz-border-radius:0;
-    -ms-border-radius:0;
-    -o-border-radius:0;
+    -webkit-border-radius:10;
+    -moz-border-radius:10;
+    -ms-border-radius:10;
+    -o-border-radius:10;
 }
   
   
@@ -78,7 +76,7 @@
   
   .footer .footer-center i {
     background-color: #ffff;
-    color: #1b0847;
+    color: #ca0d16;
     font-size: 25px;
     width: 38px;
     height: 38px;
@@ -87,15 +85,16 @@
     line-height: 42px;
     margin: 10px 15px;
     vertical-align: middle;
-    -webkit-border-radius:1;
-    -moz-border-radius:1;
-    -ms-border-radius:1;
-    -o-border-radius:1;
+    -webkit-border-radius:10;
+    -moz-border-radius:10;
+    -ms-border-radius:10;
+    -o-border-radius:10;
 }
   
   .footer .footer-center i.fa-envelope {
     font-size: 17px;
     line-height: 38px;
+    color:#ca0d16;
   }
   
   .footer .footer-center p {
