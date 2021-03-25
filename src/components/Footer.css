@@ -104,8 +104,11 @@
     vertical-align: middle;
     margin: 0;
   }
-  
+  .center{
+    text-align: center;
+  }
   .footer .footer-center p span {
+    text-align: center;
     display: block;
     font-weight: normal;
     font-size: 14px;
