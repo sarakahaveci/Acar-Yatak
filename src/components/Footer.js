@@ -38,19 +38,18 @@ function Footer() {
 
           <div>
             <i class="fa fa-whatsapp"></i>
-            <div> (0537) 432 80 02 </div>
+            <span> (0537) 432 80 02</span>
             <br />
             <i class="fa fa-phone"></i>
-            <div> (0212) 674 04 73</div>
+            <span> (0212) 674 04 73</span>
           </div>
           <div>
             <i class="fa fa-envelope"></i>
-            <div> info@yurosunger.com </div>
+            <span> info@yurosunger.com</span>
           </div>
         </div>
         <div class="footer-right col-md-4 col-sm-6">
           <h2>
-            {" "}
             <span>
               <img
                 className="logo"
@@ -62,9 +61,10 @@ function Footer() {
             </span>
           </h2>
           <p class="menu">
-            <a href="Home"> Home</a> |<a href="prodcuts"> Products</a> |
-            <a href="Salesoutlet"> Sales Outlet</a> |
-            <a href="Aboutus"> About Us</a> |<a href="Contactus"> Contact Us</a>
+            <a href="./"> Home</a> |<a href="Products"> Products</a> |
+            <a href="./Salesoutlet"> Sales Outlet</a> |
+            <a href="./Aboutus"> About Us</a> |
+            <a href="./Contactus"> Contact Us</a>
           </p>
           <p class="name"> Yaman Ka &copy; 2021</p>
         </div>

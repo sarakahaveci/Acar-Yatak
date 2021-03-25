@@ -1,7 +1,7 @@
-import { useState, useEffect, React } from "react";
+import { useState, useEffect, React, Component } from "react";
 import axios from "axios";
-
 const Convert = ({ text, language }) => {
+  
   const [convertedText, setConvertedText] = useState("");
 
   useEffect(() => {

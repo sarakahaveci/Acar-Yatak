@@ -87,10 +87,10 @@
     line-height: 42px;
     margin: 10px 15px;
     vertical-align: middle;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+    -webkit-border-radius:1;
+    -moz-border-radius:1;
+    -ms-border-radius:1;
+    -o-border-radius:1;
 }
   
   .footer .footer-center i.fa-envelope {
@@ -105,7 +105,7 @@
     margin: 0;
   }
   
-  .footer .footer-center div span {
+  .footer .footer-center p span {
     display: block;
     font-weight: normal;
     font-size: 14px;
