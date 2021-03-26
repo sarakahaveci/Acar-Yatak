@@ -55,7 +55,7 @@ function Footer() {
             <span>
               <img
                 className="logo"
-                src="https://i.imgur.com/DxLjgyB.jpg"
+                src="https://i.imgur.com/hPYFIwA.png"
                 width="200px"
                 height="10%"
                 alt="Acar Yatak logo"
