@@ -37,7 +37,7 @@ function NavBarComponent() {
                 Two Person Beds
               </Dropdown.Item>
               <Dropdown.Item as={Link} to="OnePersonBase">
-                One Person Beds Basement
+              base for one person
               </Dropdown.Item>
               <Dropdown.Item as={Link} to="TwoPersonBase">
                 Two Person Beds Basement
