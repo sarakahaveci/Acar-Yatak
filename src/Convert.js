@@ -1,8 +1,7 @@
 import React from "react";
 
-function Convert() {
-  return <div>  <div id="google_translate_element" style="position: relative;
-  top: 23px;"></div></div>;
-}
+const GoogleTranslate = (props) => {
+  return <div id="google_translate_element"></div>;
+};
 
-export default Convert;
+export default GoogleTranslate;
