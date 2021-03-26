@@ -10,7 +10,7 @@ import './Cards.css';
     return (
      <>  
      <Carousel className="carousel" >
-  <Carousel.Item interval={1000}>
+  <Carousel.Item interval={2000}>
     <img
       className="d-block mx-auto"
       src="https://i.imgur.com/4kZFFp9.png"
@@ -18,7 +18,7 @@ import './Cards.css';
     />
   
   </Carousel.Item>
-  <Carousel.Item interval={700}>
+  <Carousel.Item interval={2000}>
     <img
       className="d-block mx-auto"
       src="https://i.imgur.com/BuNGcJI.png"
@@ -26,7 +26,7 @@ import './Cards.css';
     />
 
   </Carousel.Item>
-  <Carousel.Item interval={700} >
+  <Carousel.Item interval={2000} >
     <img
       className="d-block mx-auto"
       src="https://i.imgur.com/UDBoRJn.png"

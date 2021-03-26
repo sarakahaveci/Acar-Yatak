@@ -27,7 +27,7 @@ function NavBarComponent() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/">Home Page</Nav.Link>
             <Nav.Link href="Salesoutlet">Sales Out</Nav.Link>
 
             <NavDropdown title="Product" id="basic-nav-dropdown">
@@ -50,12 +50,12 @@ function NavBarComponent() {
                 Linens
               </Dropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="Products">Products</NavDropdown.Item>
+              <NavDropdown.Item href="Products">Product</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="aboutus">About Us</Nav.Link>
             <Nav.Link href="contactus">Contact Us</Nav.Link>
           </Nav>
-          <Languages />
+          <div id="google_translate_element"></div>
           <Form inline>
             <FormControl type="text" placeholder="Search" className="mr-sm-2" />
             <Button variant="outline-danger">Search</Button>

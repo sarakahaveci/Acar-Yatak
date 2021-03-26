@@ -55,7 +55,7 @@ function Footer() {
             <span>
               <img
                 className="logo"
-                src="https://i.imgur.com/4XugT2h.jpg"
+                src="https://i.imgur.com/DxLjgyB.jpg"
                 width="200px"
                 height="10%"
                 alt="Acar Yatak logo"
@@ -63,10 +63,10 @@ function Footer() {
             </span>
           </h2>
           <p class="menu">
-            <a href="./"> Home</a> |<a href="Products"> Products</a> |
+            <a href="./"> Home Page</a> | <a href="Products"> Product </a> |
             <a href="./Salesoutlet"> Sales Outlet</a> |
             <a href="./Aboutus"> About Us</a> |
-            <a href="./Contactus"> Contact Us</a>
+            <a href="./Contactus"> Contact Us </a>
           </p>
           <p class="name"> Yaman Ka &copy; 2021</p>
         </div>

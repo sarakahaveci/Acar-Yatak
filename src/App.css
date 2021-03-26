@@ -35,3 +35,19 @@
     transform: rotate(360deg);
   }
 }
+
+/* Translate Customize */
+.goog-logo-link {
+  display:none !important;
+} 
+  
+.goog-te-gadget {
+  color: transparent !important;
+  position: relative;
+    right: 40px;
+    top: 9px;
+}
+
+.goog-te-banner-frame.skiptranslate {
+display: none !important;
+} 

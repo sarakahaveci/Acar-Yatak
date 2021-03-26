@@ -43,7 +43,6 @@ function App() {
     <div className="App">
       <NavbarComp />
       <Convert />
-      <div id="google_translate_element"></div>
       <main>
         <Switch>
           <Route path="/" exact component={Home} />
