@@ -1,0 +1,15 @@
+-------------------- Auto-Git Log --------------------
+		Fri Mar 26 2021 14:43:56 GMT+0300 (Arabian Standard Time)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* .autogit/logs/log-26-2-2021-14-13-51.txt
+
+
+Deleted files:
+
+
+Renamed files:

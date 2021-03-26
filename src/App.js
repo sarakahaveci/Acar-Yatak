@@ -1,4 +1,4 @@
-import { useState, useEffect, React } from "react";
+import { React } from "react";
 import "./App.css";
 import Footer from "./components/Footer";
 import NavbarComp from "./components/navbar/Navbar";
@@ -16,29 +16,6 @@ import Linens from "./components/dropdown/Linens";
 import { Switch, Route } from "react-router-dom";
 import Convert from "./Convert";
 function App() {
-  let fromLang = "en";
-  let toLang = "tr, ar";
-  const API_KEY = ["AIzaSyA3_RriCQWU0BphQHwI7dlmNuWebOVjkdg"];
-  let url = `https://translation.googleapis.com/language/translate/v2?key=${"AIzaSyA3_RriCQWU0BphQHwI7dlmNuWebOVjkdg"}`;
-  url += "&q=" + encodeURI("");
-  url += `&source=${fromLang}`;
-  url += `&target=${toLang}`;
-
-  fetch(url, {
-    method: "GET",
-    headers: {
-      "Content-Type": "application/json",
-      Accept: "application/json",
-    },
-  })
-    .then((res) => res.json())
-    .then((response) => {
-      console.log("response from google: ", response);
-    })
-    .catch((error) => {
-      console.log("There was an error with the translation request: ", error);
-    });
-
   return (
     <div className="App">
       <NavbarComp />

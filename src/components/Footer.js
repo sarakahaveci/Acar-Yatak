@@ -64,7 +64,7 @@ function Footer() {
           </h2>
           <p class="menu">
             <a href="./"> Home Page</a> | <a href="Products"> Product </a> |
-            <a href="./Salesoutlet"> Sales Outlet</a> |
+            <a href="./Salesoutlet">Our Agents</a> |
             <a href="./Aboutus"> About Us</a> |
             <a href="./Contactus"> Contact Us </a>
           </p>

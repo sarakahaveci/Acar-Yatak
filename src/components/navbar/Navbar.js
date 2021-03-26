@@ -7,7 +7,6 @@ import {
   FormControl,
 } from "react-bootstrap";
 import Dropdown from "react-bootstrap/Dropdown";
-import Languages from "./Languages";
 import { Link } from "react-router-dom";
 
 function NavBarComponent() {
@@ -28,7 +27,7 @@ function NavBarComponent() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="/">Home Page</Nav.Link>
-            <Nav.Link href="Salesoutlet">Sales Out</Nav.Link>
+            <Nav.Link href="Salesoutlet"> Our Agents</Nav.Link>
 
             <NavDropdown title="Product" id="basic-nav-dropdown">
               <Dropdown.Item as={Link} to="OnePersonsBed">
