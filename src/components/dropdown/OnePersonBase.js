@@ -11,7 +11,7 @@ function OnePersonBase() {
             <Card.Body>
                 <Card.Title>SAFİR 01 </Card.Title>
                 <Card.Text>
-                Only Basement 
+                base only 
                 </Card.Text>
                 <div className="price">
             Price: 2,400₺ <br/>
@@ -24,7 +24,7 @@ function OnePersonBase() {
             <Card.Body>
                 <Card.Title>SAFİR 02 </Card.Title>
                 <Card.Text>
-                Only Basement 
+                base only 
                 </Card.Text>
                 <div className="price">
             Price: 2,400₺ <br/>
@@ -35,9 +35,9 @@ function OnePersonBase() {
             <Card style={{ width: '10rem' }}>
             <Card.Img variant="top" src="https://i.imgur.com/wJRcuCh.jpg/100px180" />
             <Card.Body>
-                <Card.Title>ELMAS Basement 01</Card.Title>
+                <Card.Title>ELMAS . 01</Card.Title>
                 <Card.Text>
-                Only Basement 
+                base only 
                 </Card.Text>
                 <div className="price">
             Price: 2,400₺ <br/>
@@ -48,9 +48,9 @@ function OnePersonBase() {
             <Card style={{ width: '10rem' }}>
             <Card.Img variant="top" src="https://i.imgur.com/iEvDnnF.jpg/100px180" />
             <Card.Body>
-                <Card.Title>ELMAS Basement 02</Card.Title>
+                <Card.Title>ELMAS . 02</Card.Title>
                 <Card.Text>
-                Only Basement 
+                base only 
                 </Card.Text>
                 <div className="price">
             Price: 2,400₺ <br/>
@@ -61,9 +61,9 @@ function OnePersonBase() {
             <Card style={{ width: '10rem' }}>
             <Card.Img variant="top" src="https://i.imgur.com/ehx3hDc.jpg/100px180" />
             <Card.Body>
-                <Card.Title>GARNET Basement 01</Card.Title>
+                <Card.Title>GARNET . 01</Card.Title>
                 <Card.Text>
-                Only Basement 
+                base only 
                 </Card.Text>
                 <div className="price">
             Price: 2,400₺ <br/>
@@ -76,7 +76,7 @@ function OnePersonBase() {
             <Card.Body>
                 <Card.Title>GARNET 02</Card.Title>
                 <Card.Text>
-                Only Basement 
+                base only 
                 </Card.Text>
                 <div className="price">
             Price: 2,400₺ <br/>
@@ -90,9 +90,9 @@ function OnePersonBase() {
             <Card style={{ width: '10rem' }}>
             <Card.Img variant="top" src="https://i.imgur.com/VkC4lWu.jpg/100px180" />
             <Card.Body>
-                <Card.Title>PIRLANTA Basement 01</Card.Title>
+                <Card.Title>PIRLANTA . 01</Card.Title>
                 <Card.Text>
-                Only Basement 
+                base only 
                 </Card.Text>
                 <div className="price">
             Price: 2,400₺ <br/>
@@ -104,9 +104,9 @@ function OnePersonBase() {
             <Card style={{ width: '10rem' }}>
             <Card.Img variant="top" src="https://i.imgur.com/DhhswPm.jpg/100px180" />
             <Card.Body>
-                <Card.Title>PIRLANTA Basement 02</Card.Title>
+                <Card.Title>PIRLANTA . 02</Card.Title>
                 <Card.Text>
-                Only Basement 
+                base only 
                 </Card.Text>
                 <div className="price">
             Price: 2,400₺ <br/>
@@ -118,9 +118,9 @@ function OnePersonBase() {
             <Card style={{ width: '10rem' }}>
             <Card.Img variant="top" src="https://i.imgur.com/5Dqccpv.jpg/100px180" />
             <Card.Body>
-                <Card.Title>ONIKS Basement 01</Card.Title>
+                <Card.Title>ONIKS . 01</Card.Title>
                 <Card.Text>
-                Only Basement 
+                base only 
                 </Card.Text>
                 <div className="price">
             Price: 2,400₺ <br/>
@@ -132,9 +132,9 @@ function OnePersonBase() {
             <Card style={{ width: '10rem' }}>
             <Card.Img variant="top" src="https://i.imgur.com/8r7C1K3.jpg/100px180" />
             <Card.Body>
-                <Card.Title>ONIKS Basement 02</Card.Title>
+                <Card.Title>ONIKS . 02</Card.Title>
                 <Card.Text>
-                Only Basement 
+                base only 
                 </Card.Text>
                 <div className="price">
             Price: 2,400₺ <br/>
@@ -150,9 +150,9 @@ function OnePersonBase() {
        <Card style={{ width: '10rem' }}>
         <Card.Img variant="top" src="https://i.imgur.com/EgsIrmO.jpg/100px180" />
         <Card.Body>
-            <Card.Title>STANDARD EKO Basement </Card.Title>
+            <Card.Title>STANDARD EKO . </Card.Title>
             <Card.Text>
-            Only Basement 
+            base only 
             </Card.Text>
             <div className="price">
         Price: 2,400₺ <br/>
@@ -163,9 +163,9 @@ function OnePersonBase() {
                 <Card style={{ width: '10rem' }}>
         <Card.Img variant="top" src="https://i.imgur.com/Hw1qlhD.jpg/100px180" />
         <Card.Body>
-            <Card.Title>YAKUT Basement</Card.Title>
+            <Card.Title>YAKUT .</Card.Title>
             <Card.Text>
-            Only Basement 
+            base only 
             </Card.Text>
             <div className="price">
         Price: 2,400₺ <br/>
@@ -177,9 +177,9 @@ function OnePersonBase() {
         <Card style={{ width: '10rem' }}>
         <Card.Img variant="top" src="https://i.imgur.com/xNgZRDu.jpg/100px180" />
         <Card.Body>
-            <Card.Title>EKO KOR Basement </Card.Title>
+            <Card.Title>EKO KOR  </Card.Title>
             <Card.Text>
-            Only Basement 
+            base only 
             </Card.Text>
             <div className="price">
         Price: 2,400₺ <br/>
