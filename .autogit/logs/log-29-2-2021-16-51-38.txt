@@ -1,0 +1,20 @@
+-------------------- Auto-Git Log --------------------
+		Mon Mar 29 2021 16:51:38 GMT+0300 (Arabian Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/components/dropdown/Beds.js
+* src/components/dropdown/OnePersonBase.js
+* src/components/dropdown/TwoPersonBase.js
+
+
+Created files:
+* .autogit/logs/log-28-2-2021-21-31-55.txt
+
+
+Deleted files:
+* src/components/locales/ar/translation.json
+* src/components/locales/tr/translation.json
+
+
+Renamed files:

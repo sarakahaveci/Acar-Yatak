@@ -13,7 +13,7 @@ function Beds() {
             />
             <Card.Body>
               <Card.Title>Comfort Bed</Card.Title>
-              <Card.Text>bed base with a matress</Card.Text>
+              <Card.Text> matress</Card.Text>
               <div className="price">
                 Price: 2,400₺ <br />
               </div>
@@ -27,7 +27,7 @@ function Beds() {
             />
             <Card.Body>
               <Card.Title>Comfort Set</Card.Title>
-              <Card.Text>bed's base with a bed</Card.Text>
+              <Card.Text>set of a bed and base</Card.Text>
               <div className="price">
                 Price: 4,560₺ <br />
               </div>
@@ -41,7 +41,7 @@ function Beds() {
             />
             <Card.Body>
               <Card.Title>Cotton Bed</Card.Title>
-              <Card.Text>bed's base</Card.Text>
+              <Card.Text>Bed</Card.Text>
               <div className="price">
                 Price: 4,560₺ <br />
               </div>
@@ -55,7 +55,7 @@ function Beds() {
             />
             <Card.Body>
               <Card.Title>Cotton Set</Card.Title>
-              <Card.Text>Set of bed and bed's base</Card.Text>
+              <Card.Text>set of a bed and base</Card.Text>
               <div className="price">
                 Price: 4,560₺ <br />
               </div>
@@ -73,7 +73,7 @@ function Beds() {
             />
             <Card.Body>
               <Card.Title>Defne Bed</Card.Title>
-              <Card.Text>bed's base</Card.Text>
+              <Card.Text>Bed</Card.Text>
               <div className="price">
                 Price: 1,300₺ <br />
               </div>
@@ -87,7 +87,7 @@ function Beds() {
             />
             <Card.Body>
               <Card.Title>Defne Set</Card.Title>
-              <Card.Text>one of the most comfortable.</Card.Text>
+              <Card.Text>set of a bed and base</Card.Text>
               <div className="price">
                 Price: 3,460₺ <br />
               </div>
@@ -101,7 +101,7 @@ function Beds() {
             />
             <Card.Body>
               <Card.Title>Lale Bed</Card.Title>
-              <Card.Text>bed's base</Card.Text>
+              <Card.Text>Bed</Card.Text>
               <div className="price">
                 Price: 1,000₺ <br />
               </div>
@@ -112,7 +112,7 @@ function Beds() {
             <Card.Img variant="top" src="https://i.imgur.com/ESMHVdG.png" />
             <Card.Body>
               <Card.Title>Lale Set</Card.Title>
-              <Card.Text>Set</Card.Text>
+              <Card.Text>Set of a bed and base</Card.Text>
               <div className="price">
                 Price: 3,460₺ <br />
               </div>
@@ -130,7 +130,7 @@ function Beds() {
             />
             <Card.Body>
               <Card.Title>Majesty Bed</Card.Title>
-              <Card.Text>bed's base</Card.Text>
+              <Card.Text>Bed</Card.Text>
               <div className="price">
                 Price: 1,800₺ <br />
               </div>
@@ -144,7 +144,7 @@ function Beds() {
             />
             <Card.Body>
               <Card.Title>Majesty Set</Card.Title>
-              <Card.Text>one of the most comfortable.</Card.Text>
+              <Card.Text>Set of a bed and base</Card.Text>
               <div className="price">
                 Price: 4,560₺ <br />
               </div>
@@ -158,7 +158,7 @@ function Beds() {
             />
             <Card.Body>
               <Card.Title>Natura Bed</Card.Title>
-              <Card.Text>bed's base</Card.Text>
+              <Card.Text>Bed</Card.Text>
               <div className="price">
                 Price: 1,600₺ <br />
               </div>
@@ -172,7 +172,7 @@ function Beds() {
             />
             <Card.Body>
               <Card.Title>Natura Set</Card.Title>
-              <Card.Text>Set</Card.Text>
+              <Card.Text>Set of a bed and base</Card.Text>
               <div className="price">
                 Price: 4,740₺ <br />
               </div>
@@ -190,7 +190,7 @@ function Beds() {
             />
             <Card.Body>
               <Card.Title>Nick Set</Card.Title>
-              <Card.Text>bed's base</Card.Text>
+              <Card.Text>Set of a bed and base</Card.Text>
               <div className="price">
                 Price: 2,100₺ <br />
               </div>
@@ -204,7 +204,7 @@ function Beds() {
             />
             <Card.Body>
               <Card.Title>Pinky Set</Card.Title>
-              <Card.Text>one of the most comfortable.</Card.Text>
+              <Card.Text>Set of a bed and base</Card.Text>
               <div className="price">
                 Price: 2,100₺ <br />
               </div>
@@ -218,7 +218,7 @@ function Beds() {
             />
             <Card.Body>
               <Card.Title>Petra Bed</Card.Title>
-              <Card.Text>bed's base</Card.Text>
+              <Card.Text>Bed</Card.Text>
               <div className="price">
                 Price: 1,650₺ <br />
               </div>
@@ -232,7 +232,7 @@ function Beds() {
             />
             <Card.Body>
               <Card.Title>Petra Set</Card.Title>
-              <Card.Text></Card.Text>
+              <Card.Text>Set of a bed and base</Card.Text>
               <div className="price">
                 Price: 3,820₺ <br />
               </div>
@@ -250,7 +250,7 @@ function Beds() {
             />
             <Card.Body>
               <Card.Title>Royal Bed</Card.Title>
-              <Card.Text>bed's base</Card.Text>
+              <Card.Text>Bed</Card.Text>
               <div className="price">
                 Price: 2,400₺ <br />
               </div>
@@ -264,7 +264,7 @@ function Beds() {
             />
             <Card.Body>
               <Card.Title>Royal Set</Card.Title>
-              <Card.Text>one of the most comfortable.</Card.Text>
+              <Card.Text>Set of a bed and base</Card.Text>
               <div className="price">
                 Price: 5,000₺ <br />
               </div>
@@ -278,7 +278,7 @@ function Beds() {
             />
             <Card.Body>
               <Card.Title>Acar Bed</Card.Title>
-              <Card.Text>bed's base</Card.Text>
+              <Card.Text>Bed</Card.Text>
               <div className="price">
                 Price: 2,100₺ <br />
               </div>
@@ -292,7 +292,7 @@ function Beds() {
             />
             <Card.Body>
               <Card.Title>Acar Set</Card.Title>
-              <Card.Text></Card.Text>
+              <Card.Text>Set of a bed and base</Card.Text>
               <div className="price">
                 Price: 2,600₺ <br />
               </div>
@@ -310,7 +310,7 @@ function Beds() {
             />
             <Card.Body>
               <Card.Title>Sümbül Bed</Card.Title>
-              <Card.Text>bed's base</Card.Text>
+              <Card.Text>Bed</Card.Text>
               <div className="price">
                 Price: 1,400₺ <br />
               </div>
@@ -324,7 +324,7 @@ function Beds() {
             />
             <Card.Body>
               <Card.Title>Sümbül Set</Card.Title>
-              <Card.Text>one of the most comfortable.</Card.Text>
+              <Card.Text>Set of a bed and base</Card.Text>
               <div className="price">
                 Price: 3,000₺ <br />
               </div>
@@ -338,7 +338,7 @@ function Beds() {
             />
             <Card.Body>
               <Card.Title>Zeher Bed</Card.Title>
-              <Card.Text>bed's base</Card.Text>
+              <Card.Text>Bed</Card.Text>
               <div className="price">
                 Price: 3,820₺ <br />
               </div>
@@ -352,7 +352,7 @@ function Beds() {
             />
             <Card.Body>
               <Card.Title>Zeher Set</Card.Title>
-              <Card.Text>Set</Card.Text>
+              <Card.Text>Set of a bed and base</Card.Text>
               <div className="price">
                 Price: 1,800₺ <br />
               </div>
