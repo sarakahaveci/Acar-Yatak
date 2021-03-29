@@ -32,7 +32,7 @@ function Footer() {
             <i class="fa fa-map-marker"></i>
             <span>
               <span>Bayrampaşa </span>
-              <span> Vatan Mah. Esenler Cad. No:39</span>
+              <span> Vatan Mahallesi. Esenler Cad. No:39</span>
               <br />
               Istanbul, Turkey
             </span>

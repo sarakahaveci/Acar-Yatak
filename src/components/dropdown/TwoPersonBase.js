@@ -27,7 +27,7 @@ function TwoPersonBase() {
             />
             <Card.Body>
               <Card.Title>APATİT . 02 </Card.Title>
-              <Card.Text>  two person bed base</Card.Text>
+              <Card.Text> two person bed base</Card.Text>
               <div className="price">
                 Price: 2,400₺ <br />
               </div>
@@ -73,7 +73,7 @@ function TwoPersonBase() {
             />
             <Card.Body>
               <Card.Title>ELMAS . 01</Card.Title>
-              <Card.Text>two people bed base</Card.Text>
+              <Card.Text>two person bed base</Card.Text>
               <div className="price">
                 Price: 2,400₺ <br />
               </div>
@@ -87,7 +87,7 @@ function TwoPersonBase() {
             />
             <Card.Body>
               <Card.Title>ELMAS . 02 </Card.Title>
-              <Card.Text>two people bed base</Card.Text>
+              <Card.Text>two person bed base</Card.Text>
               <div className="price">
                 Price: 2,400₺ <br />
               </div>
@@ -115,7 +115,7 @@ function TwoPersonBase() {
             />
             <Card.Body>
               <Card.Title>GARNET . 02</Card.Title>
-              <Card.Text>two people bed base</Card.Text>
+              <Card.Text>two person bed base</Card.Text>
               <div className="price">
                 Price: 2,400₺ <br />
               </div>
@@ -147,7 +147,7 @@ function TwoPersonBase() {
             />
             <Card.Body>
               <Card.Title>ONİKS . 02 </Card.Title>
-              <Card.Text>two people bed base</Card.Text>
+              <Card.Text>two person bed base</Card.Text>
               <div className="price">
                 Price: 2,400₺ <br />
               </div>
@@ -161,7 +161,7 @@ function TwoPersonBase() {
             />
             <Card.Body>
               <Card.Title>PIRALNTA . 01</Card.Title>
-              <Card.Text>two people bed base</Card.Text>
+              <Card.Text>two person bed base</Card.Text>
               <div className="price">
                 Price: 2,400₺ <br />
               </div>
@@ -175,7 +175,7 @@ function TwoPersonBase() {
             />
             <Card.Body>
               <Card.Title>PIRALNTA . 02</Card.Title>
-              <Card.Text>two people bed base</Card.Text>
+              <Card.Text>two person bed base</Card.Text>
               <div className="price">
                 Price: 2,400₺ <br />
               </div>
@@ -193,7 +193,7 @@ function TwoPersonBase() {
             />
             <Card.Body>
               <Card.Title>SAFİR . 01</Card.Title>
-              <Card.Text>two people bed base</Card.Text>
+              <Card.Text>two person bed base</Card.Text>
               <div className="price">
                 Price: 2,400₺ <br />
               </div>
@@ -207,7 +207,7 @@ function TwoPersonBase() {
             />
             <Card.Body>
               <Card.Title>SAFİR . 02 </Card.Title>
-              <Card.Text>two people bed base</Card.Text>
+              <Card.Text>two person bed base</Card.Text>
               <div className="price">
                 Price: 2,400₺ <br />
               </div>
@@ -221,7 +221,7 @@ function TwoPersonBase() {
             />
             <Card.Body>
               <Card.Title>ZÜMRÜT . 01 </Card.Title>
-              <Card.Text>two people bed base</Card.Text>
+              <Card.Text>two person bed base</Card.Text>
               <div className="price">
                 Price: 2,400₺ <br />
               </div>
@@ -235,7 +235,7 @@ function TwoPersonBase() {
             />
             <Card.Body>
               <Card.Title>ZÜMRÜT . 02 </Card.Title>
-              <Card.Text>two people bed base</Card.Text>
+              <Card.Text>two person bed base</Card.Text>
               <div className="price">
                 Price: 2,400₺ <br />
               </div>

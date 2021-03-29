@@ -1,0 +1,18 @@
+-------------------- Auto-Git Log --------------------
+		Mon Mar 29 2021 17:52:04 GMT+0300 (Arabian Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/components/dropdown/OnePersonBase.js
+* src/components/dropdown/TwoPersonBase.js
+* src/components/navbar/Navbar.js
+
+
+Created files:
+* .autogit/logs/log-29-2-2021-17-21-47.txt
+
+
+Deleted files:
+
+
+Renamed files:
