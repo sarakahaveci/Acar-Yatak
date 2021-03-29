@@ -37,10 +37,10 @@ function NavBarComponent() {
                 Two Person Beds
               </Dropdown.Item>
               <Dropdown.Item as={Link} to="OnePersonBase">
-                base for one person
+               one person bed base 
               </Dropdown.Item>
               <Dropdown.Item as={Link} to="TwoPersonBase">
-                the base for Two Person Beds
+               two person bed base 
               </Dropdown.Item>
               <Dropdown.Item as={Link} to="Bunks">
                 Beds Bunks
