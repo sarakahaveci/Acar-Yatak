@@ -11,7 +11,7 @@ function OnePersonBase() {
             <Card.Body>
                 <Card.Title>SAFİR 01 </Card.Title>
                 <Card.Text>
-                base only 
+               bed's base 
                 </Card.Text>
                 <div className="price">
             Price: 2,400₺ <br/>
@@ -24,7 +24,7 @@ function OnePersonBase() {
             <Card.Body>
                 <Card.Title>SAFİR 02 </Card.Title>
                 <Card.Text>
-                base only 
+               bed's base 
                 </Card.Text>
                 <div className="price">
             Price: 2,400₺ <br/>
@@ -37,7 +37,7 @@ function OnePersonBase() {
             <Card.Body>
                 <Card.Title>ELMAS . 01</Card.Title>
                 <Card.Text>
-                base only 
+               bed's base 
                 </Card.Text>
                 <div className="price">
             Price: 2,400₺ <br/>
@@ -50,7 +50,7 @@ function OnePersonBase() {
             <Card.Body>
                 <Card.Title>ELMAS . 02</Card.Title>
                 <Card.Text>
-                base only 
+               bed's base 
                 </Card.Text>
                 <div className="price">
             Price: 2,400₺ <br/>
@@ -63,7 +63,7 @@ function OnePersonBase() {
             <Card.Body>
                 <Card.Title>GARNET . 01</Card.Title>
                 <Card.Text>
-                base only 
+               bed's base 
                 </Card.Text>
                 <div className="price">
             Price: 2,400₺ <br/>
@@ -76,7 +76,7 @@ function OnePersonBase() {
             <Card.Body>
                 <Card.Title>GARNET 02</Card.Title>
                 <Card.Text>
-                base only 
+               bed's base 
                 </Card.Text>
                 <div className="price">
             Price: 2,400₺ <br/>
@@ -92,7 +92,7 @@ function OnePersonBase() {
             <Card.Body>
                 <Card.Title>PIRLANTA . 01</Card.Title>
                 <Card.Text>
-                base only 
+               bed's base 
                 </Card.Text>
                 <div className="price">
             Price: 2,400₺ <br/>
@@ -106,7 +106,7 @@ function OnePersonBase() {
             <Card.Body>
                 <Card.Title>PIRLANTA . 02</Card.Title>
                 <Card.Text>
-                base only 
+               bed's base 
                 </Card.Text>
                 <div className="price">
             Price: 2,400₺ <br/>
@@ -120,7 +120,7 @@ function OnePersonBase() {
             <Card.Body>
                 <Card.Title>ONIKS . 01</Card.Title>
                 <Card.Text>
-                base only 
+               bed's base 
                 </Card.Text>
                 <div className="price">
             Price: 2,400₺ <br/>
@@ -134,7 +134,7 @@ function OnePersonBase() {
             <Card.Body>
                 <Card.Title>ONIKS . 02</Card.Title>
                 <Card.Text>
-                base only 
+               bed's base 
                 </Card.Text>
                 <div className="price">
             Price: 2,400₺ <br/>
@@ -152,7 +152,7 @@ function OnePersonBase() {
         <Card.Body>
             <Card.Title>STANDARD EKO . </Card.Title>
             <Card.Text>
-            base only 
+           bed's base 
             </Card.Text>
             <div className="price">
         Price: 2,400₺ <br/>
@@ -165,7 +165,7 @@ function OnePersonBase() {
         <Card.Body>
             <Card.Title>YAKUT .</Card.Title>
             <Card.Text>
-            base only 
+           bed's base 
             </Card.Text>
             <div className="price">
         Price: 2,400₺ <br/>
@@ -179,7 +179,7 @@ function OnePersonBase() {
         <Card.Body>
             <Card.Title>EKO KOR  </Card.Title>
             <Card.Text>
-            base only 
+           bed's base 
             </Card.Text>
             <div className="price">
         Price: 2,400₺ <br/>
