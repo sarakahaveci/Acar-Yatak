@@ -1,0 +1,15 @@
+-------------------- Auto-Git Log --------------------
+		Mon Apr 05 2021 20:11:10 GMT+0300 (Arabian Standard Time)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* .autogit/logs/log-5-3-2021-19-41-4.txt
+
+
+Deleted files:
+
+
+Renamed files:
