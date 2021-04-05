@@ -8,7 +8,7 @@ import {
 } from "react-bootstrap";
 import Dropdown from "react-bootstrap/Dropdown";
 import { Link } from "react-router-dom";
-import Search from "./Search";
+import Search from '../navbar/Search';
 function NavBarComponent() {
   return (
     <>
@@ -55,12 +55,7 @@ function NavBarComponent() {
             <Nav.Link href="contactus">Contact Us</Nav.Link>
           </Nav>
           <div id="google_translate_element"></div>
-          <Form inline>
-            <Search />
-            <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-            <Button variant="outline-danger">Search</Button>
-          </Form>
-        </Navbar.Collapse>
+                  </Navbar.Collapse>
       </Navbar>
     </>
   );

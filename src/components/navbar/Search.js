@@ -3,9 +3,7 @@ import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import Spinner from "react-bootstrap/Spinner";
-import "./Search.scss";
-import { MOCK_DATABASE } from "../../../common/MockDatabase";
-
+import Products from '../dropdown/Products'
 const ONLY_FIRST_IMAGE_OF_PRODUCTS = 0;
 const AMOUNT_OF_PRODUCT_IN_SEARCH_PREVIEW = 3;
 
@@ -45,7 +43,6 @@ const Search = () => {
       </Col>
     ));
 
-  // TODO(emrerdem1): Make it more precise to show if it's still loading or failed as searching when we implement Fetching.
   const searchSpinnerContainer = (
     <Spinner animation="border" role="status" variant="info">
       <span className="sr-only">Loading...</span>

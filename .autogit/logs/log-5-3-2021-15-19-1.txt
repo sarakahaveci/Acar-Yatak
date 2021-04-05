@@ -1,0 +1,34 @@
+-------------------- Auto-Git Log --------------------
+		Mon Apr 05 2021 15:19:01 GMT+0300 (Arabian Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/components/navbar/Navbar.js
+
+
+Created files:
+* .autogit/logs/log-5-3-2021-14-48-41.txt
+
+
+Deleted files:
+* nas-daily-hacathon/.gitignore
+* nas-daily-hacathon/README.md
+* nas-daily-hacathon/package.json
+* nas-daily-hacathon/public/favicon.ico
+* nas-daily-hacathon/public/index.html
+* nas-daily-hacathon/public/logo192.png
+* nas-daily-hacathon/public/logo512.png
+* nas-daily-hacathon/public/manifest.json
+* nas-daily-hacathon/public/robots.txt
+* nas-daily-hacathon/src/App.css
+* nas-daily-hacathon/src/App.js
+* nas-daily-hacathon/src/App.test.js
+* nas-daily-hacathon/src/index.css
+* nas-daily-hacathon/src/index.js
+* nas-daily-hacathon/src/logo.svg
+* nas-daily-hacathon/src/reportWebVitals.js
+* nas-daily-hacathon/src/setupTests.js
+* nas-daily-hacathon/yarn.lock
+
+
+Renamed files:
