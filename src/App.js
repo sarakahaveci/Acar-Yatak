@@ -21,7 +21,6 @@ function App() {
     <div className="App">
       <NavbarComp />
       <Convert />
-      <SourceApi />
       <main>
         <Switch>
           <Route path="/" exact component={Home} />
