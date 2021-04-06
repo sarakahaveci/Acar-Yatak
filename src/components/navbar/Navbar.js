@@ -8,7 +8,7 @@ import {
 } from "react-bootstrap";
 import Dropdown from "react-bootstrap/Dropdown";
 import { Link } from "react-router-dom";
-import Search from '../navbar/Search';
+import Search from "../navbar/Search";
 function NavBarComponent() {
   return (
     <>
@@ -22,7 +22,7 @@ function NavBarComponent() {
             alt="Acar Yatak logo"
           />
         </Navbar.Brand>
-        <Navbar.Brand href="/">F.   ACAR</Navbar.Brand>
+        <Navbar.Brand href="/">ACAR YATAK</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
@@ -55,7 +55,11 @@ function NavBarComponent() {
             <Nav.Link href="contactus">Contact Us</Nav.Link>
           </Nav>
           <div id="google_translate_element"></div>
-                  </Navbar.Collapse>
+          <Form inline>
+            <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+            <Button variant="outline-danger">Search</Button>
+          </Form>
+        </Navbar.Collapse>
       </Navbar>
     </>
   );
