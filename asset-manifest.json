@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Acar-Yatak/static/css/main.0c8ee082.chunk.css",
+    "main.js": "/Acar-Yatak/static/js/main.85eb209d.chunk.js",
+    "main.js.map": "/Acar-Yatak/static/js/main.85eb209d.chunk.js.map",
+    "runtime-main.js": "/Acar-Yatak/static/js/runtime-main.eb9bd0ce.js",
+    "runtime-main.js.map": "/Acar-Yatak/static/js/runtime-main.eb9bd0ce.js.map",
+    "static/css/2.1671f18a.chunk.css": "/Acar-Yatak/static/css/2.1671f18a.chunk.css",
+    "static/js/2.04326fd5.chunk.js": "/Acar-Yatak/static/js/2.04326fd5.chunk.js",
+    "static/js/2.04326fd5.chunk.js.map": "/Acar-Yatak/static/js/2.04326fd5.chunk.js.map",
+    "static/js/3.811dc339.chunk.js": "/Acar-Yatak/static/js/3.811dc339.chunk.js",
+    "static/js/3.811dc339.chunk.js.map": "/Acar-Yatak/static/js/3.811dc339.chunk.js.map",
+    "index.html": "/Acar-Yatak/index.html",
+    "static/css/2.1671f18a.chunk.css.map": "/Acar-Yatak/static/css/2.1671f18a.chunk.css.map",
+    "static/css/main.0c8ee082.chunk.css.map": "/Acar-Yatak/static/css/main.0c8ee082.chunk.css.map",
+    "static/js/2.04326fd5.chunk.js.LICENSE.txt": "/Acar-Yatak/static/js/2.04326fd5.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/Acar-Yatak/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/react-bootstrap-carousel.css": "/Acar-Yatak/static/media/react-bootstrap-carousel.f4133112.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eb9bd0ce.js",
+    "static/css/2.1671f18a.chunk.css",
+    "static/js/2.04326fd5.chunk.js",
+    "static/css/main.0c8ee082.chunk.css",
+    "static/js/main.85eb209d.chunk.js"
+  ]
+}
